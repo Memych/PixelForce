@@ -2,6 +2,9 @@
 
 A comprehensive tracker for the **Ocarina of Time / Majora's Mask** ([OoTMM](https://github.com/OoTMM/OoTMM)) randomizer. Built with [Godot Engine](https://godotengine.org/), this tool helps players track locations, items, and progression during their randomizer playthroughs.
 
+> [!IMPORTANT]
+> This tracker is developed and tested against **build-dev** releases of the [OoTMM](https://github.com/OoTMM/OoTMM) randomizer — **not** stable tags (e.g. `v32`, `v33`). Location names, item lists, spoiler-log format and logic rules differ between build-dev and stable builds, so this tracker may misparse logs or misjudge reachability if your randomizer is not a matching build-dev version.
+
 <img width="1538" height="928" alt="image" src="https://github.com/user-attachments/assets/e0c5a1f7-2e32-45a9-91b5-b052cdf0c551" />
 
 <img width="1538" height="928" alt="image" src="https://github.com/user-attachments/assets/83962491-9169-4fa4-9041-4952fc2a4e9e" />
@@ -90,7 +93,7 @@ Automatically track game state by connecting to an emulator or randomizer daemon
 - **Memory Address Shifts**: Major updates to the emulator or the randomizer may change memory addresses, temporarily breaking the TCP reader until the tracker is updated.
 
 ### 🧠 Logic Inaccuracies
-- **Version Mismatch**: The tracker's logic rules (`access_rules_*.json` and `logic_macros.gd`) are based on specific versions of the OoTMM randomizer. If the randomizer updates its logic (e.g., new tricks, glitch adjustments, or rule changes), the tracker may incorrectly mark a location as "Reachable" or "Unreachable" until its data files are synced with the latest randomizer version.
+- **Version Mismatch**: The tracker's logic rules (`access_rules_*.json` and `logic_macros.gd`) and data files are synced to the current **build-dev** branch of OoTMM, not to stable releases (`v32`, `v33`, ...). Stable builds use different logic/data, so "Reachable"/"Unreachable" states and spoiler-log parsing can be inaccurate unless you're running a matching build-dev version.
 - **Edge Cases**: Highly specific interactions involving multi-world item dependencies or obscure glitch combinations might not be perfectly mirrored in the tracker's logic evaluator.
 
 ### 📄 Spoiler Log Parsing
@@ -100,7 +103,7 @@ Automatically track game state by connecting to an emulator or randomizer daemon
 
 ### From Release
 
-1. Download the latest release from the [Releases](https://github.com/Memych/pixel-force-ootmm-tracker/releases) page
+1. Download the latest release from the [Releases](https://github.com/Memych/PixelForce/releases) page
 2. Extract the archive
 3. Run `PixelForce_OoTMMTracker.exe`
 
@@ -112,8 +115,8 @@ Automatically track game state by connecting to an emulator or randomizer daemon
 **Steps:**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Memych/pixel-force-ootmm-tracker.git
-   cd pixel-force-ootmm-tracker
+   git clone https://github.com/Memych/PixelForce.git
+   cd PixelForce
 
 ## Credits
 
