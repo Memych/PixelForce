@@ -1,5 +1,5 @@
 # Godot 4.2+ specific ignores
-~*.dll
+*.dll
 
 # Godot 4+ specific ignores
 .godot/
@@ -19,7 +19,15 @@ export_credentials.cfg
 data_*/
 mono_crash.*.json
 
-# Export outputs
+# Build outputs
+build/
+bin/
 *.exe
-# Uncomment if your project does not version PCK files as runtime dependencies.
-# *.pck
+*.pck
+
+# Test files
+Spoiler Logs/
+
+# OS specific
+.DS_Store
+Thumbs.db
