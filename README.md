@@ -2,11 +2,16 @@
 
 A comprehensive tracker for the **Ocarina of Time / Majora's Mask (OoTMM)** randomizer. Built with [Godot Engine](https://godotengine.org/), this tool helps players track locations, items, and progression during their randomizer playthroughs.
 
-![Locations Tab](images/screenshots/locations.png)
-![Map Tab](images/screenshots/map.png)
-![Items Tab](images/screenshots/items.png)
-![Settings Tab](images/screenshots/settings.png)
-![AutoTracker Tab](images/screenshots/autotracker.png)
+<img width="1538" height="928" alt="image" src="https://github.com/user-attachments/assets/e0c5a1f7-2e32-45a9-91b5-b052cdf0c551" />
+
+<img width="1538" height="928" alt="image" src="https://github.com/user-attachments/assets/70bc8855-195c-4a1e-8d78-17ecda875e36" />
+
+<img width="1538" height="928" alt="image" src="https://github.com/user-attachments/assets/83962491-9169-4fa4-9041-4952fc2a4e9e" />
+
+<img width="1538" height="928" alt="image" src="https://github.com/user-attachments/assets/714aec7f-3072-4159-a7a4-2217b1620963" />
+
+<img width="1538" height="928" alt="image" src="https://github.com/user-attachments/assets/f4b9f7ba-c451-4c78-bfe9-ba8221ddcabf" />
+
 
 ## Features
 
