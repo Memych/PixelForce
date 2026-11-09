@@ -1,0 +1,57 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="PixelForce - OoTMM Tracker"
+config/version="1.0"
+run/main_scene="uid://bmainapp001"
+config/features=PackedStringArray("4.7", "Forward Plus")
+boot_splash/show_image=false
+boot_splash/use_filter=false
+config/icon="uid://k6lw6b1fseco"
+config/main_scene="uid://b1main001"
+
+[autoload]
+
+LogicEvaluator="*uid://c4m3h5et7vxs1"
+ItemManager="*uid://crerre8gqw0yp"
+
+[display]
+
+window/size/viewport_width=1536
+window/size/viewport_height=896
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="PixelForce - OoTMM Tracker"
+
+[gui]
+
+timers/tooltip_delay_sec=0.0
+theme/default_font_antialiasing=2
+theme/default_theme_scale=0.6
+theme/custom="uid://eicgbjmsp2my"
+theme/custom_font="uid://bd1kac46rc6hb"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+rendering_device/driver.windows="d3d12"
+textures/lossless_compression/force_png=true
+textures/webp_compression/compression_method=0
+textures/decals/filter=0
+textures/light_projectors/filter=0
