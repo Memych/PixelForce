@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://o65dxt6ou4v1"]
+
+[ext_resource type="Script" uid="uid://dg6i0r2ktoteo" path="res://scripts/settings.gd" id="1_dlstv"]
+
+[node name="SettingsBoolean" type="Control" unique_id=100000001]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_dlstv")
+
+[node name="HBox" type="HBoxContainer" parent="." unique_id=100000002]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CheckBox" type="CheckBox" parent="HBox" unique_id=100000004]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+
+[node name="Label" type="Label" parent="HBox" unique_id=100000003]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 14
+text = "Setting Name"

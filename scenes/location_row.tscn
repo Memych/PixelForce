@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://b1row123"]
+
+[ext_resource type="Script" uid="uid://bq0lst4c6aa3f" path="res://scripts/location_row.gd" id="1_row"]
+
+[node name="LocationRow" type="PanelContainer" unique_id=406950193]
+custom_minimum_size = Vector2(0, 32)
+script = ExtResource("1_row")
+
+[node name="HBox" type="HBoxContainer" parent="." unique_id=1332477416]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="CheckBox" type="Button" parent="HBox" unique_id=1834066686]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(28, 28)
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+toggle_mode = true
+keep_pressed_outside = true
+flat = true
+
+[node name="NameLabel" type="Label" parent="HBox" unique_id=1274519373]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Location Name"
+vertical_alignment = 1
+
+[node name="PlayerLabel" type="Label" parent="HBox" unique_id=811543841]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 13
+vertical_alignment = 1
+
+[node name="IconRect" type="TextureRect" parent="HBox" unique_id=751919060]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+size_flags_vertical = 4
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ItemLabel" type="Label" parent="HBox" unique_id=1001184012]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Item"
+vertical_alignment = 1

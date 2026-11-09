@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://btc67mppejkuy"]
+
+[ext_resource type="Script" uid="uid://dg6i0r2ktoteo" path="res://scripts/settings.gd" id="1_2b8oc"]
+
+[node name="SettingsEnum" type="Control" unique_id=200000001]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_2b8oc")
+
+[node name="VBox" type="VBoxContainer" parent="." unique_id=200000002]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBox" unique_id=200000003]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Setting Name"
+
+[node name="OptionButton" type="OptionButton" parent="VBox" unique_id=200000004]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14

@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bmainapp001"]
+
+[ext_resource type="Script" uid="uid://c38howmvtftfq" path="res://scripts/main_app.gd" id="1_main_app"]
+
+[node name="MainApp" type="Control" unique_id=110000001]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_main_app")
+
+[node name="Background" type="ColorRect" parent="." unique_id=110000002]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.3137255, 0.3137255, 0.3137255, 1)
+
+[node name="TabContainer" type="TabContainer" parent="." unique_id=110000003]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/side_margin = 8

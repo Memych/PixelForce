@@ -1,0 +1,4297 @@
+[
+	{"game": "OoT", "marker_name": "Kokiri Forest → Deku Tree",
+	"entrance": ["OOT_DEKU_TREE"],
+	"exit": ["OOT_KOKIRI_FOREST_FROM_DEKU_TREE"],
+	"region": "Kokiri Forest", "subregion": "Kokiri Forest",
+	"x": 1226, "y": 322, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Kokiri Forest → Lost Woods (Bridge)",
+	"entrance": ["OOT_LOST_WOODS_BRIDGE_FROM_FOREST"],
+	"exit": ["OOT_FOREST_FROM_LOST_WOODS_BRIDGE"],
+	"region": "Kokiri Forest", "subregion": "Kokiri Forest",
+	"x": 338, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kokiri Forest → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_KOKIRI_FOREST"],
+	"exit": ["OOT_KOKIRI_FOREST_FROM_LOST_WOODS"],
+	"region": "Kokiri Forest", "subregion": "Kokiri Forest",
+	"x": 538, "y": 38, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kokiri Forest → Link's House",
+	"entrance": ["OOT_HOUSE_LINK"],
+	"exit": ["OOT_KOKIRI_FOREST_FROM_LINK"],
+	"region": "Kokiri Forest", "subregion": "Kokiri Forest",
+	"x": 894, "y": 781, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kokiri Forest → Saria's House",
+	"entrance": ["OOT_HOUSE_SARIA"],
+	"exit": ["OOT_KOKIRI_FOREST_FROM_SARIA"],
+	"region": "Kokiri Forest", "subregion": "Kokiri Forest",
+	"x": 995, "y": 586, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kokiri Forest → Twins House",
+	"entrance": ["OOT_HOUSE_TWINS"],
+	"exit": ["OOT_KOKIRI_FOREST_FROM_TWINS"],
+	"region": "Kokiri Forest", "subregion": "Kokiri Forest",
+	"x": 1134, "y": 495, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kokiri Forest → Know-It-All House",
+	"entrance": ["OOT_HOUSE_KNOW_IT_ALL"],
+	"exit": ["OOT_KOKIRI_FOREST_FROM_KNOW_IT_ALL"],
+	"region": "Kokiri Forest", "subregion": "Kokiri Forest",
+	"x": 491, "y": 666, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kokiri Forest → Mido's House",
+	"entrance": ["OOT_HOUSE_MIDO"],
+	"exit": ["OOT_KOKIRI_FOREST_FROM_MIDO"],
+	"region": "Kokiri Forest", "subregion": "Kokiri Forest",
+	"x": 604, "y": 342, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kokiri Forest → Shop",
+	"entrance": ["OOT_KOKIRI_SHOP"],
+	"exit": ["OOT_KOKIRI_FOREST_FROM_SHOP"],
+	"region": "Kokiri Forest", "subregion": "Kokiri Forest",
+	"x": 987, "y": 271, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kokiri Forest → Song of Storms Grotto",
+	"entrance": ["OOT_GROTTO_GENERIC_KOKIRI_FOREST"],
+	"exit": ["OOT_GROTTO_EXIT_GENERIC_KOKIRI_FOREST"],
+	"region": "Kokiri Forest", "subregion": "Kokiri Forest",
+	"x": 516, "y": 98, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Link's House → Kokiri Forest",
+	"entrance": ["OOT_KOKIRI_FOREST_FROM_LINK"],
+	"exit": ["OOT_HOUSE_LINK"],
+	"region": "Kokiri Forest", "subregion": "Link's House",
+	"x": 713, "y": 794, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Saria's House → Kokiri Forest",
+	"entrance": ["OOT_KOKIRI_FOREST_FROM_SARIA"],
+	"exit": ["OOT_HOUSE_SARIA"],
+	"region": "Kokiri Forest", "subregion": "Saria's House",
+	"x": 473, "y": 547, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Mido's House → Kokiri Forest",
+	"entrance": ["OOT_KOKIRI_FOREST_FROM_MIDO"],
+	"exit": ["OOT_HOUSE_MIDO"],
+	"region": "Kokiri Forest", "subregion": "Mido's House",
+	"x": 712, "y": 775, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Twins House → Kokiri Forest",
+	"entrance": ["OOT_KOKIRI_FOREST_FROM_TWINS"],
+	"exit": ["OOT_HOUSE_TWINS"],
+	"region": "Kokiri Forest", "subregion": "Twins House",
+	"x": 712, "y": 767, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Know-It-All House → Kokiri Forest",
+	"entrance": ["OOT_KOKIRI_FOREST_FROM_KNOW_IT_ALL"],
+	"exit": ["OOT_HOUSE_KNOW_IT_ALL"],
+	"region": "Kokiri Forest", "subregion": "Know-It-All House",
+	"x": 712, "y": 760, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Shop → Kokiri Forest",
+	"entrance": ["OOT_KOKIRI_FOREST_FROM_SHOP"],
+	"exit": ["OOT_KOKIRI_SHOP"],
+	"region": "Kokiri Forest", "subregion": "Shop",
+	"x": 469, "y": 598, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Song of Storms Grotto → Kokiri Forest",
+	"entrance": ["OOT_GROTTO_EXIT_GENERIC_KOKIRI_FOREST"],
+	"exit": ["OOT_GROTTO_GENERIC_KOKIRI_FOREST"],
+	"region": "Kokiri Forest", "subregion": "Song of Storms Grotto",
+	"x": 671, "y": 593, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Lost Woods (Bridge) → Kokiri Forest",
+	"entrance": ["OOT_FOREST_FROM_LOST_WOODS_BRIDGE"],
+	"exit": ["OOT_LOST_WOODS_BRIDGE_FROM_FOREST"],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 308, "y": 2787, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods (Bridge) → Hyrule Field",
+	"entrance": ["OOT_FIELD_FROM_LOST_WOODS_BRIDGE"],
+	"exit": ["OOT_LOST_WOODS_BRIDGE_FROM_FIELD"],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 118, "y": 2787, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods → Kokiri Forest",
+	"entrance": ["OOT_KOKIRI_FOREST_FROM_LOST_WOODS"],
+	"exit": ["OOT_LOST_WOODS_FROM_KOKIRI_FOREST"],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 1043, "y": 2195, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods → Goron City",
+	"entrance": ["OOT_GORON_CITY_FROM_LOST_WOODS"],
+	"exit": ["OOT_LOST_WOODS_FROM_GORON_CITY"],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 1647, "y": 1305, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods → Zora's River",
+	"entrance": ["OOT_ZORA_RIVER_FROM_LOST_WOODS"],
+	"exit": ["OOT_LOST_WOODS_FROM_ZORA_RIVER"],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 2584, "y": 1465, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods → Sacred Forest Meadow",
+	"entrance": ["OOT_SACRED_FOREST_MEADOW"],
+	"exit": ["OOT_LOST_WOODS_FROM_MEADOW"],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 1453, "y": 106, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods → Generic Grotto",
+	"entrance": ["OOT_GROTTO_GENERIC_LOST_WOODS"],
+	"exit": ["OOT_GROTTO_EXIT_GENERIC_LOST_WOODS"],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 1753, "y": 1359, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods → Deku Theater",
+	"entrance": ["OOT_GROTTO_DEKU_THEATER"],
+	"exit": ["OOT_GROTTO_EXIT_DEKU_THEATER"],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 1061, "y": 927, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods → Deku Scrubs Grotto",
+	"entrance": ["OOT_GROTTO_SCRUB_UPGRADE"],
+	"exit": ["OOT_GROTTO_EXIT_SCRUB_UPGRADE"],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 1346, "y": 184, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods (North, Kokiri Forest Area) → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_LOST_WOODS_NORTH"],
+	"exit": [""],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 1049, "y": 1825, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods (North, Near Sacred Forest Meadow Area) → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_LOST_WOODS_NORTH"],
+	"exit": [""],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 2169, "y": 103, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods (South, Target Area) → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_LOST_WOODS_SOUTH"],
+	"exit": [""],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 1654, "y": 2152, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods (South, Zora's River Area) → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_LOST_WOODS_SOUTH"],
+	"exit": [""],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 2159, "y": 1645, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods (South, Sacred Forest Meadow Area) → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_LOST_WOODS_SOUTH"],
+	"exit": [""],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 1446, "y": 532, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods (West, Goron City Area) → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_LOST_WOODS_WEST"],
+	"exit": [""],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 1466, "y": 1490, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods (West, Sacred Forest Meadow Area) → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_LOST_WOODS_WEST"],
+	"exit": [""],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 1242, "y": 318, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods (East, Near Zora's River Area) → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_LOST_WOODS_EAST"],
+	"exit": [""],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 2362, "y": 934, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lost Woods (East, Near Sacred Forest Meadow Area) → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_LOST_WOODS_EAST"],
+	"exit": [""],
+	"region": "Lost Woods", "subregion": "Lost Woods",
+	"x": 2382, "y": 320, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Generic Grotto → Lost Woods",
+	"entrance": ["OOT_GROTTO_EXIT_GENERIC_LOST_WOODS"],
+	"exit": ["OOT_GROTTO_GENERIC_LOST_WOODS"],
+	"region": "Lost Woods", "subregion": "Generic Grotto",
+	"x": 671, "y": 593, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Deku Scrubs Grotto → Lost Woods",
+	"entrance": ["OOT_GROTTO_EXIT_SCRUB_UPGRADE"],
+	"exit": ["OOT_GROTTO_SCRUB_UPGRADE"],
+	"region": "Lost Woods", "subregion": "Deku Scrubs Grotto",
+	"x": 675, "y": 666, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Deku Theater → Lost Woods",
+	"entrance": ["OOT_GROTTO_EXIT_DEKU_THEATER"],
+	"exit": ["OOT_GROTTO_DEKU_THEATER"],
+	"region": "Lost Woods", "subregion": "Deku Theater",
+	"x": 710, "y": 704, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Sacred Forest Meadow → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_MEADOW"],
+	"exit": ["OOT_SACRED_FOREST_MEADOW"],
+	"region": "Sacred Forest Meadow", "subregion": "Sacred Forest Meadow",
+	"x": 1722, "y": 385, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Sacred Forest Meadow → Forest Temple",
+	"entrance": ["OOT_TEMPLE_FOREST"],
+	"exit": ["OOT_SACRED_MEADOW_FROM_TEMPLE_FOREST"],
+	"region": "Sacred Forest Meadow", "subregion": "Sacred Forest Meadow",
+	"x": 106, "y": 302, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Sacred Forest Meadow → Song of Storms Grotto",
+	"entrance": ["OOT_GROTTO_SCRUBS2_SFM"],
+	"exit": ["OOT_GROTTO_EXIT_SCRUBS2_SFM"],
+	"region": "Sacred Forest Meadow", "subregion": "Sacred Forest Meadow",
+	"x": 537, "y": 173, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Sacred Forest Meadow → Wolfos Grotto",
+	"entrance": ["OOT_GROTTO_WOLFOS"],
+	"exit": ["OOT_GROTTO_EXIT_WOLFOS"],
+	"region": "Sacred Forest Meadow", "subregion": "Sacred Forest Meadow",
+	"x": 1620, "y": 385, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Sacred Forest Meadow → Fairy Fountain",
+	"entrance": ["OOT_GROTTO_FAIRY_SFM"],
+	"exit": ["OOT_GROTTO_EXIT_FAIRY_SFM"],
+	"region": "Sacred Forest Meadow", "subregion": "Sacred Forest Meadow",
+	"x": 1010, "y": 297, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Wolfos Grotto → Sacred Forest Meadow",
+	"entrance": ["OOT_GROTTO_EXIT_WOLFOS"],
+	"exit": ["OOT_GROTTO_WOLFOS"],
+	"region": "Sacred Forest Meadow", "subregion": "Wolfos Grotto",
+	"x": 690, "y": 662, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Song of Storms Grotto → Sacred Forest Meadow",
+	"entrance": ["OOT_GROTTO_EXIT_SCRUBS2_SFM"],
+	"exit": ["OOT_GROTTO_SCRUBS2_SFM"],
+	"region": "Sacred Forest Meadow", "subregion": "Song of Storms Grotto",
+	"x": 675, "y": 650, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Fairy Fountain → Sacred Forest Meadow",
+	"entrance": ["OOT_GROTTO_EXIT_FAIRY_SFM"],
+	"exit": ["OOT_GROTTO_FAIRY_SFM"],
+	"region": "Sacred Forest Meadow", "subregion": "Fairy Fountain",
+	"x": 485, "y": 526, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Lost Woods (Bridge)",
+	"entrance": ["OOT_LOST_WOODS_BRIDGE_FROM_FIELD"],
+	"exit": ["OOT_FIELD_FROM_LOST_WOODS_BRIDGE"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 1044, "y": 559, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Zora's River",
+	"entrance": ["OOT_ZORA_RIVER_FROM_FIELD"],
+	"exit": ["OOT_FIELD_FROM_ZORA_RIVER"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 1075, "y": 289, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_FIELD"],
+	"exit": ["OOT_FIELD_FROM_KAKARIKO"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 971, "y": 105, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Market (Gate Side)",
+	"entrance": ["OOT_MARKET_ENTRANCE_FROM_FIELD"],
+	"exit": ["OOT_FIELD_FROM_MARKET_ENTRANCE"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 762, "y": 106, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Lon Lon Ranch",
+	"entrance": ["OOT_LON_LON_RANCH_FROM_FIELD"],
+	"exit": ["OOT_FIELD_FROM_LON_LON_RANCH"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 638, "y": 424, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Gerudo Valley",
+	"entrance": ["OOT_GERUDO_VALLEY_FROM_FIELD"],
+	"exit": ["OOT_FIELD_FROM_GERUDO_VALLEY"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 261, "y": 513, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Lake Hylia",
+	"entrance": ["OOT_LAKE_HYLIA_FROM_FIELD"],
+	"exit": ["OOT_FIELD_FROM_LAKE_HYLIA"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 462, "y": 884, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Deku Scrub Grotto",
+	"entrance": ["OOT_GROTTO_SCRUB_HEART_PIECE"],
+	"exit": ["OOT_GROTTO_EXIT_SCRUB_HEART_PIECE"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 487, "y": 846, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Kakariko Side Grotto",
+	"entrance": ["OOT_GROTTO_FIELD_TREE"],
+	"exit": ["OOT_GROTTO_EXIT_FIELD_TREE"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 867, "y": 76, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Gerudo Side Grotto",
+	"entrance": ["OOT_GROTTO_FIELD_COW"],
+	"exit": ["OOT_GROTTO_EXIT_FIELD_COW"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 317, "y": 472, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Tektite Grotto",
+	"entrance": ["OOT_GROTTO_TEKTITE"],
+	"exit": ["OOT_GROTTO_EXIT_TEKTITE"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 517, "y": 251, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Open Grotto",
+	"entrance": ["OOT_GROTTO_GENERIC_HF_OPEN"],
+	"exit": ["OOT_GROTTO_EXIT_GENERIC_HF_OPEN"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 558, "y": 839, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Southeast Grotto",
+	"entrance": ["OOT_GROTTO_GENERIC_HF_SOUTHEAST"],
+	"exit": ["OOT_GROTTO_EXIT_GENERIC_HF_SOUTHEAST"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 783, "y": 761, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Market Side Grotto",
+	"entrance": ["OOT_GROTTO_GENERIC_HF_MARKET"],
+	"exit": ["OOT_GROTTO_EXIT_GENERIC_HF_MARKET"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 676, "y": 129, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Hyrule Field → Fairy Fountain",
+	"entrance": ["OOT_GROTTO_FAIRY_HF"],
+	"exit": ["OOT_GROTTO_EXIT_FAIRY_HF"],
+	"region": "Hyrule Field", "subregion": "Hyrule Field",
+	"x": 530, "y": 75, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Market Side Grotto → Hyrule Field",
+	"entrance": ["OOT_GROTTO_EXIT_GENERIC_HF_MARKET"],
+	"exit": ["OOT_GROTTO_GENERIC_HF_MARKET"],
+	"region": "Hyrule Field", "subregion": "Market Side Grotto",
+	"x": 671, "y": 593, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Southeast Grotto → Hyrule Field",
+	"entrance": ["OOT_GROTTO_EXIT_GENERIC_HF_SOUTHEAST"],
+	"exit": ["OOT_GROTTO_GENERIC_HF_SOUTHEAST"],
+	"region": "Hyrule Field", "subregion": "Southeast Grotto",
+	"x": 671, "y": 593, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Open Grotto → Hyrule Field",
+	"entrance": ["OOT_GROTTO_EXIT_GENERIC_HF_OPEN"],
+	"exit": ["OOT_GROTTO_GENERIC_HF_OPEN"],
+	"region": "Hyrule Field", "subregion": "Open Grotto",
+	"x": 671, "y": 593, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Kakariko Side Grotto → Hyrule Field",
+	"entrance": ["OOT_GROTTO_EXIT_FIELD_TREE"],
+	"exit": ["OOT_GROTTO_FIELD_TREE"],
+	"region": "Hyrule Field", "subregion": "Kakariko Side Grotto",
+	"x": 696, "y": 661, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Gerudo Side Grotto → Hyrule Field",
+	"entrance": ["OOT_GROTTO_EXIT_FIELD_COW"],
+	"exit": ["OOT_GROTTO_FIELD_COW"],
+	"region": "Hyrule Field", "subregion": "Gerudo Side Grotto",
+	"x": 728, "y": 502, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Tektite Grotto → Hyrule Field",
+	"entrance": ["OOT_GROTTO_EXIT_TEKTITE"],
+	"exit": ["OOT_GROTTO_TEKTITE"],
+	"region": "Hyrule Field", "subregion": "Tektite Grotto",
+	"x": 720, "y": 626, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Deku Scrub Grotto → Hyrule Field",
+	"entrance": ["OOT_GROTTO_EXIT_SCRUB_HEART_PIECE"],
+	"exit": ["OOT_GROTTO_SCRUB_HEART_PIECE"],
+	"region": "Hyrule Field", "subregion": "Deku Scrub Grotto",
+	"x": 695, "y": 620, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Fairy Fountain → Hyrule Field",
+	"entrance": ["OOT_GROTTO_EXIT_FAIRY_HF"],
+	"exit": ["OOT_GROTTO_FAIRY_HF"],
+	"region": "Hyrule Field", "subregion": "Fairy Fountain",
+	"x": 485, "y": 526, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Lon Lon Ranch → Hyrule Field",
+	"entrance": ["OOT_FIELD_FROM_LON_LON_RANCH"],
+	"exit": ["OOT_LON_LON_RANCH_FROM_FIELD"],
+	"region": "Lon Lon Ranch", "subregion": "Lon Lon Ranch",
+	"x": 870, "y": 444, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lon Lon Ranch → Talon's House",
+	"entrance": ["OOT_HOUSE_LON_LON"],
+	"exit": ["OOT_LON_LON_RANCH_FROM_HOUSE"],
+	"region": "Lon Lon Ranch", "subregion": "Lon Lon Ranch",
+	"x": 780, "y": 450, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lon Lon Ranch → Stable",
+	"entrance": ["OOT_STABLES"],
+	"exit": ["OOT_LON_LON_RANCH_FROM_STABLES"],
+	"region": "Lon Lon Ranch", "subregion": "Lon Lon Ranch",
+	"x": 758, "y": 409, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lon Lon Ranch → Silo",
+	"entrance": ["OOT_SILO"],
+	"exit": ["OOT_LON_LON_RANCH_FROM_SILO"],
+	"region": "Lon Lon Ranch", "subregion": "Lon Lon Ranch",
+	"x": 196, "y": 125, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lon Lon Ranch → Deku Scrubs Grotto",
+	"entrance": ["OOT_GROTTO_SCRUBS3_RANCH"],
+	"exit": ["OOT_GROTTO_EXIT_SCRUBS3_RANCH"],
+	"region": "Lon Lon Ranch", "subregion": "Lon Lon Ranch",
+	"x": 198, "y": 507, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Talon's House → Lon Lon Ranch",
+	"entrance": ["OOT_LON_LON_RANCH_FROM_HOUSE"],
+	"exit": ["OOT_HOUSE_LON_LON"],
+	"region": "Lon Lon Ranch", "subregion": "Talon's House",
+	"x": 529, "y": 265, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Stable → Lon Lon Ranch",
+	"entrance": ["OOT_LON_LON_RANCH_FROM_STABLES"],
+	"exit": ["OOT_STABLES"],
+	"region": "Lon Lon Ranch", "subregion": "Stable",
+	"x": 454, "y": 134, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Silo → Lon Lon Ranch",
+	"entrance": ["OOT_LON_LON_RANCH_FROM_SILO"],
+	"exit": ["OOT_SILO"],
+	"region": "Lon Lon Ranch", "subregion": "Silo",
+	"x": 339, "y": 406, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Deku Scrubs Grotto → Lon Lon Ranch",
+	"entrance": ["OOT_GROTTO_EXIT_SCRUBS3_RANCH"],
+	"exit": ["OOT_GROTTO_SCRUBS3_RANCH"],
+	"region": "Lon Lon Ranch", "subregion": "Deku Scrubs Grotto",
+	"x": 695, "y": 711, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Market → Market (Gate Side)",
+	"entrance": ["OOT_MARKET_ENTRANCE_FROM_MARKET"],
+	"exit": ["OOT_MARKET_FROM_MARKET_ENTRANCE"],
+	"region": "Market", "subregion": "Market",
+	"x": 483, "y": 597, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Market → Market (Temple Side)",
+	"entrance": ["OOT_TEMPLE_OF_TIME_ENTRYWAY_FROM_MARKET"],
+	"exit": ["OOT_MARKET_FROM_TEMPLE_OF_TIME_ENTRYWAY"],
+	"region": "Market", "subregion": "Market",
+	"x": 880, "y": 97, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Market → Hyrule/Ganon Castle",
+	"entrance": ["OOT_HYRULE_CASTLE"],
+	"exit": ["OOT_MARKET_FROM_CASTLE"],
+	"region": "Market", "subregion": "Market",
+	"x": 480, "y": 24, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Market → Mask Shop",
+	"entrance": ["OOT_SHOP_MASKS"],
+	"exit": ["OOT_MARKET_FROM_MASK_SHOP"],
+	"region": "Market", "subregion": "Market",
+	"x": 633, "y": 49, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Market → Bazaar",
+	"entrance": ["OOT_MARKET_BAZAAR"],
+	"exit": ["OOT_MARKET_FROM_BAZAAR"],
+	"region": "Market", "subregion": "Market",
+	"x": 752, "y": 417, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Market → Potion Shop",
+	"entrance": ["OOT_MARKET_POTION"],
+	"exit": ["OOT_MARKET_FROM_POTION"],
+	"region": "Market", "subregion": "Market",
+	"x": 745, "y": 248, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Market → Shooting Gallery",
+	"entrance": ["OOT_CHILD_ARCHERY"],
+	"exit": ["OOT_MARKET_FROM_ARCHERY"],
+	"region": "Market", "subregion": "Market",
+	"x": 367, "y": 32, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Market → Treasure Chest Game",
+	"entrance": ["OOT_TREASURE_GAME"],
+	"exit": ["OOT_MARKET_FROM_TREASURE_GAME"],
+	"region": "Market", "subregion": "Market",
+	"x": 238, "y": 593, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Market → Bombchu Shop",
+	"entrance": ["OOT_BOMBCHU_SHOP"],
+	"exit": ["OOT_MARKET_FROM_BOMBCHU_SHOP"],
+	"region": "Market", "subregion": "Market",
+	"x": 96, "y": 598, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Market → Bombchu Bowling",
+	"entrance": ["OOT_BOMBCHU_BOWLING"],
+	"exit": ["OOT_MARKET_FROM_BOWLING"],
+	"region": "Market", "subregion": "Market",
+	"x": 255, "y": 310, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Market → Back Alley House",
+	"entrance": ["OOT_ALLEY_HOUSE"],
+	"exit": ["OOT_MARKET_FROM_ALLEY_HOUSE"],
+	"region": "Market", "subregion": "Market",
+	"x": 112, "y": 35, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Market (Gate Side) → Market",
+	"entrance": ["OOT_MARKET_FROM_MARKET_ENTRANCE"],
+	"exit": ["OOT_MARKET_ENTRANCE_FROM_MARKET"],
+	"region": "Market", "subregion": "Market Gate Side",
+	"x": 175, "y": 522, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Market (Gate Side) → Hyrule Field",
+	"entrance": ["OOT_FIELD_FROM_MARKET_ENTRANCE"],
+	"exit": ["OOT_MARKET_ENTRANCE_FROM_FIELD"],
+	"region": "Market", "subregion": "Market Gate Side",
+	"x": 806, "y": 226, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Market (Gate Side) → Guard House",
+	"entrance": ["OOT_HOUSE_POTS"],
+	"exit": ["OOT_MARKET_ENTRANCE_FROM_POTS"],
+	"region": "Market", "subregion": "Market Gate Side",
+	"x": 564, "y": 249, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Market (Temple Side) → Market",
+	"entrance": ["OOT_MARKET_FROM_TEMPLE_OF_TIME_ENTRYWAY"],
+	"exit": ["OOT_TEMPLE_OF_TIME_ENTRYWAY_FROM_MARKET"],
+	"region": "Market", "subregion": "Market Temple Side",
+	"x": 768, "y": 563, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Market (Temple Side) → Temple of Time",
+	"entrance": ["OOT_TEMPLE_OF_TIME"],
+	"exit": ["OOT_TEMPLE_OF_TIME_ENTRYWAY_FROM_TEMPLE"],
+	"region": "Market", "subregion": "Market Temple Side",
+	"x": 514, "y": 361, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Temple of Time → Market (Temple Side)",
+	"entrance": ["OOT_TEMPLE_OF_TIME_ENTRYWAY_FROM_TEMPLE"],
+	"exit": ["OOT_TEMPLE_OF_TIME"],
+	"region": "Market", "subregion": "Temple of Time",
+	"x": 119, "y": 329, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Bazaar → Market",
+	"entrance": ["OOT_MARKET_FROM_BAZAAR"],
+	"exit": ["OOT_MARKET_BAZAAR"],
+	"region": "Market", "subregion": "Bazaar",
+	"x": 555, "y": 585, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Potion Shop → Market",
+	"entrance": ["OOT_MARKET_FROM_POTION"],
+	"exit": ["OOT_MARKET_POTION"],
+	"region": "Market", "subregion": "Potion Shop",
+	"x": 481, "y": 590, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Bombchu Shop → Market",
+	"entrance": ["OOT_MARKET_FROM_BOMBCHU_SHOP"],
+	"exit": ["OOT_BOMBCHU_SHOP"],
+	"region": "Market", "subregion": "Bombchu Shop",
+	"x": 496, "y": 567, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Bombchu Bowling → Market",
+	"entrance": ["OOT_MARKET_FROM_BOWLING"],
+	"exit": ["OOT_BOMBCHU_BOWLING"],
+	"region": "Market", "subregion": "Bombchu Bowling",
+	"x": 861, "y": 344, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Shooting Gallery → Market",
+	"entrance": ["OOT_MARKET_FROM_ARCHERY"],
+	"exit": ["OOT_CHILD_ARCHERY"],
+	"region": "Market", "subregion": "Shooting Gallery",
+	"x": 808, "y": 347, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Back Alley House → Market",
+	"entrance": ["OOT_MARKET_FROM_ALLEY_HOUSE"],
+	"exit": ["OOT_ALLEY_HOUSE"],
+	"region": "Market", "subregion": "Back Alley House",
+	"x": 283, "y": 584, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Treasure Chest Game → Market",
+	"entrance": ["OOT_MARKET_FROM_TREASURE_GAME"],
+	"exit": ["OOT_TREASURE_GAME"],
+	"region": "Market", "subregion": "Treasure Chest Game",
+	"x": 907, "y": 94, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Guard House → Market (Gate Side)",
+	"entrance": ["OOT_MARKET_ENTRANCE_FROM_POTS"],
+	"exit": ["OOT_HOUSE_POTS"],
+	"region": "Market", "subregion": "Guard House",
+	"x": 872, "y": 470, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Hyrule Castle → Market",
+	"entrance": ["OOT_MARKET_FROM_CASTLE"],
+	"exit": ["OOT_HYRULE_CASTLE"],
+	"region": "Hyrule/Ganon Castle", "subregion": "Hyrule Castle",
+	"x": 56, "y": 219, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Hyrule Castle → Song of Storms Grotto",
+	"entrance": ["OOT_GROTTO_CASTLE"],
+	"exit": ["OOT_GROTTO_EXIT_CASTLE"],
+	"region": "Hyrule/Ganon Castle", "subregion": "Hyrule Castle",
+	"x": 647, "y": 353, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Hyrule Castle → Hyrule Great Fairy Fountain",
+	"entrance": ["OOT_FAIRY_DIN"],
+	"exit": ["OOT_HYRULE_CASTLE_FROM_FAIRY"],
+	"region": "Hyrule/Ganon Castle", "subregion": "Hyrule Castle",
+	"x": 260, "y": 605, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Song of Storms Grotto → Hyrule Castle",
+	"entrance": ["OOT_GROTTO_EXIT_CASTLE"],
+	"exit": ["OOT_GROTTO_CASTLE"],
+	"region": "Hyrule/Ganon Castle", "subregion": "Song of Storms Grotto",
+	"x": 689, "y": 656, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Outside Ganon's Castle → Market",
+	"entrance": ["OOT_MARKET_FROM_CASTLE"],
+	"exit": ["OOT_HYRULE_CASTLE"],
+	"region": "Hyrule/Ganon Castle", "subregion": "Outside Ganon's Castle",
+	"x": 881, "y": 197, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	{"game": "OoT", "marker_name": "Outside Ganon's Castle → Ganon Great Fairy Fountain",
+	"entrance": ["OOT_FAIRY_DEFENSE"],
+	"exit": ["OOT_OUTSIDE_GANON_FROM_FAIRY"],
+	"region": "Hyrule/Ganon Castle", "subregion": "Outside Ganon's Castle",
+	"x": 43, "y": 264, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	{"game": "OoT", "marker_name": "Outside Ganon's Castle → Inside Ganon's Castle",
+	"entrance": ["OOT_GANON_CASTLE"],
+	"exit": ["OOT_GANON_CASTLE_EXTERIOR_FROM_CASTLE"],
+	"region": "Hyrule/Ganon Castle", "subregion": "Outside Ganon's Castle",
+	"x": 638, "y": 588, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Hyrule Great Fairy Fountain → Hyrule Castle",
+	"entrance": ["OOT_HYRULE_CASTLE_FROM_FAIRY"],
+	"exit": ["OOT_FAIRY_DIN"],
+	"region": "Hyrule/Ganon Castle", "subregion": "Hyrule Great Fairy Fountain",
+	"x": 499, "y": 554, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Ganon Great Fairy Fountain → Outside Ganon's Castle",
+	"entrance": ["OOT_OUTSIDE_GANON_FROM_FAIRY"],
+	"exit": ["OOT_FAIRY_DEFENSE"],
+	"region": "Hyrule/Ganon Castle", "subregion": "Ganon Great Fairy Fountain",
+	"x": 499, "y": 554, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Hyrule Field",
+	"entrance": ["OOT_FIELD_FROM_KAKARIKO"],
+	"exit": ["OOT_KAKARIKO_FROM_FIELD"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 886, "y": 196, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Graveyard",
+	"entrance": ["OOT_GRAVEYARD"],
+	"exit": ["OOT_KAKARIKO_FROM_GRAVEYARD"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 138, "y": 151, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Death Mountain Trail",
+	"entrance": ["OOT_DEATH_MOUNTAIN_FROM_KAKARIKO"],
+	"exit": ["OOT_KAKARIKO_FROM_DEATH_MOUNTAIN"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 456, "y": 599, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Bottom of the Well",
+	"entrance": ["OOT_BOTTOM_OF_THE_WELL"],
+	"exit": ["OOT_KAKARIKO_FROM_BOTTOM_OF_THE_WELL"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 359, "y": 279, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Bazaar",
+	"entrance": ["OOT_KAKARIKO_BAZAAR"],
+	"exit": ["OOT_KAKARIKO_FROM_BAZAAR"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 513, "y": 452, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Potion Shop",
+	"entrance": ["OOT_SHOP_POTION_KAKARIKO"],
+	"exit": ["OOT_KAKARIKO_FROM_SHOP_POTION"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 425, "y": 447, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Potion Shop (Back)",
+	"entrance": ["OOT_SHOP_POTION_KAKARIKO_BACK"],
+	"exit": ["OOT_KAKARIKO_FROM_SHOP_POTION_BACK"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 384, "y": 454, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Granny Potion Shop",
+	"entrance": ["OOT_SHOP_GRANNY"],
+	"exit": ["OOT_KAKARIKO_FROM_GRANNY"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 367, "y": 346, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Shooting Gallery",
+	"entrance": ["OOT_ADULT_ARCHERY"],
+	"exit": ["OOT_KAKARIKO_FROM_ARCHERY"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 431, "y": 219, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Skulltula House",
+	"entrance": ["OOT_HOUSE_SKULLTULA"],
+	"exit": ["OOT_KAKARIKO_FROM_SKULLTULA"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 521, "y": 208, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Impa's House",
+	"entrance": ["OOT_HOUSE_IMPA"],
+	"exit": ["OOT_KAKARIKO_FROM_IMPA"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 512, "y": 95, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Impa's House (Back)",
+	"entrance": ["OOT_HOUSE_IMPA_BACK"],
+	"exit": ["OOT_KAKARIKO_FROM_IMPA_BACK"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 448, "y": 99, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Windmill",
+	"entrance": ["OOT_WINDMILL"],
+	"exit": ["OOT_KAKARIKO_FROM_WINDMILL"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 269, "y": 268, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Carpenters House",
+	"entrance": ["OOT_HOUSE_CARPENTER"],
+	"exit": ["OOT_KAKARIKO_FROM_CARPENTER"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 461, "y": 326, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → Open Grotto",
+	"entrance": ["OOT_GROTTO_GENERIC_KAKARIKO"],
+	"exit": ["OOT_GROTTO_EXIT_GENERIC_KAKARIKO"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 348, "y": 406, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Kakariko Village → ReDeads Grotto",
+	"entrance": ["OOT_GROTTO_REDEAD"],
+	"exit": ["OOT_GROTTO_EXIT_REDEAD"],
+	"region": "Kakariko", "subregion": "Kakariko Village",
+	"x": 529, "y": 297, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Bazaar → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_BAZAAR"],
+	"exit": ["OOT_KAKARIKO_BAZAAR"],
+	"region": "Kakariko", "subregion": "Bazaar",
+	"x": 555, "y": 585, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Potion Shop → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_SHOP_POTION"],
+	"exit": ["OOT_SHOP_POTION_KAKARIKO"],
+	"region": "Kakariko", "subregion": "Potion Shop",
+	"x": 618, "y": 525, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Potion Shop (Back) → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_SHOP_POTION_BACK"],
+	"exit": ["OOT_SHOP_POTION_KAKARIKO_BACK"],
+	"region": "Kakariko", "subregion": "Potion Shop",
+	"x": 307, "y": 364, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Granny Potion Shop → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_GRANNY"],
+	"exit": ["OOT_SHOP_GRANNY"],
+	"region": "Kakariko", "subregion": "Granny Potion Shop",
+	"x": 488, "y": 591, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Shooting Gallery → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_ARCHERY"],
+	"exit": ["OOT_ADULT_ARCHERY"],
+	"region": "Kakariko", "subregion": "Shooting Gallery",
+	"x": 808, "y": 347, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Skulltula House → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_SKULLTULA"],
+	"exit": ["OOT_HOUSE_SKULLTULA"],
+	"region": "Kakariko", "subregion": "Skulltula House",
+	"x": 474, "y": 570, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Windmill → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_WINDMILL"],
+	"exit": ["OOT_WINDMILL"],
+	"region": "Kakariko", "subregion": "Windmill",
+	"x": 1133, "y": 464, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Impa's House → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_IMPA"],
+	"exit": ["OOT_HOUSE_IMPA"],
+	"region": "Kakariko", "subregion": "Impa's House",
+	"x": 766, "y": 553, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Impa's House (Back) → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_IMPA_BACK"],
+	"exit": ["OOT_HOUSE_IMPA_BACK"],
+	"region": "Kakariko", "subregion": "Impa's House",
+	"x": 563, "y": 348, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Carpenters House → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_CARPENTER"],
+	"exit": ["OOT_HOUSE_CARPENTER"],
+	"region": "Kakariko", "subregion": "Carpenters House",
+	"x": 596, "y": 248, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Open Grotto → Kakariko Village",
+	"entrance": ["OOT_GROTTO_EXIT_GENERIC_KAKARIKO"],
+	"exit": ["OOT_GROTTO_GENERIC_KAKARIKO"],
+	"region": "Kakariko", "subregion": "Open Grotto",
+	"x": 671, "y": 593, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "ReDeads Grotto → Kakariko Village",
+	"entrance": ["OOT_GROTTO_EXIT_REDEAD"],
+	"exit": ["OOT_GROTTO_REDEAD"],
+	"region": "Kakariko", "subregion": "ReDeads Grotto",
+	"x": 695, "y": 620, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Graveyard → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_GRAVEYARD"],
+	"exit": ["OOT_GRAVEYARD"],
+	"region": "Graveyard", "subregion": "Graveyard",
+	"x": 895, "y": 269, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Graveyard → Shadow Temple",
+	"entrance": ["OOT_TEMPLE_SHADOW"],
+	"exit": ["OOT_GRAVEYARD_FROM_TEMPLE_SHADOW"],
+	"region": "Graveyard", "subregion": "Graveyard",
+	"x": 51, "y": 324, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Graveyard → Dampe's Hut",
+	"entrance": ["OOT_HOUSE_DAMPE"],
+	"exit": ["OOT_GRAVEYARD_FROM_DAMPE"],
+	"region": "Graveyard", "subregion": "Graveyard",
+	"x": 647, "y": 197, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Graveyard → Dampe's Tomb",
+	"entrance": ["OOT_GRAVE_DAMPE"],
+	"exit": ["OOT_GRAVE_EXIT_DAMPE"],
+	"region": "Graveyard", "subregion": "Graveyard",
+	"x": 599, "y": 440, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	{"game": "OoT", "marker_name": "Graveyard → Royal Family's Tomb",
+	"entrance": ["OOT_GRAVE_ROYAL"],
+	"exit": ["OOT_GRAVE_EXIT_ROYAL"],
+	"region": "Graveyard", "subregion": "Graveyard",
+	"x": 238, "y": 327, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Graveyard → ReDead's Tomb",
+	"entrance": ["OOT_GRAVE_REDEAD"],
+	"exit": ["OOT_GRAVE_EXIT_REDEAD"],
+	"region": "Graveyard", "subregion": "Graveyard",
+	"x": 406, "y": 262, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Graveyard → Fairy's Tomb",
+	"entrance": ["OOT_GRAVE_SHIELD"],
+	"exit": ["OOT_GRAVE_EXIT_SHIELD"],
+	"region": "Graveyard", "subregion": "Graveyard",
+	"x": 535, "y": 304, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Dampe's Hut → Graveyard",
+	"entrance": ["OOT_GRAVEYARD_FROM_DAMPE"],
+	"exit": ["OOT_HOUSE_DAMPE"],
+	"region": "Graveyard", "subregion": "Dampe's Hut",
+	"x": 516, "y": 300, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Dampe's Tomb → Graveyard",
+	"entrance": ["OOT_GRAVE_EXIT_DAMPE"],
+	"exit": ["OOT_GRAVE_DAMPE"],
+	"region": "Graveyard", "subregion": "Dampe's Tomb",
+	"x": 258, "y": 90, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Royal Family's Tomb → Graveyard",
+	"entrance": ["OOT_GRAVE_EXIT_ROYAL"],
+	"exit": ["OOT_GRAVE_ROYAL"],
+	"region": "Graveyard", "subregion": "Royal Family's Tomb",
+	"x": 151, "y": 601, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "ReDead's Tomb → Graveyard",
+	"entrance": ["OOT_GRAVE_EXIT_REDEAD"],
+	"exit": ["OOT_GRAVE_REDEAD"],
+	"region": "Graveyard", "subregion": "ReDead's Tomb",
+	"x": 472, "y": 89, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Fairy's Tomb → Graveyard",
+	"entrance": ["OOT_GRAVE_EXIT_SHIELD"],
+	"exit": ["OOT_GRAVE_SHIELD"],
+	"region": "Graveyard", "subregion": "Fairy's Tomb",
+	"x": 651, "y": 27, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Death Mountain Trail → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_DEATH_MOUNTAIN"],
+	"exit": ["OOT_DEATH_MOUNTAIN_FROM_KAKARIKO"],
+	"region": "Death Mountain Trail", "subregion": "Death Mountain Trail - Bottom",
+	"x": 842, "y": 598, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Death Mountain Trail → Dodongo's Cavern",
+	"entrance": ["OOT_DODONGO_CAVERN"],
+	"exit": ["OOT_MOUNTAIN_TRAIL_FROM_DODONGO_CAVERN"],
+	"region": "Death Mountain Trail", "subregion": "Death Mountain Trail - Bottom",
+	"x": 63, "y": 331, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Death Mountain Trail → Goron City",
+	"entrance": ["OOT_GORON_CITY"],
+	"exit": ["OOT_DEATH_MOUNTAIN_FROM_GORON_CITY"],
+	"region": "Death Mountain Trail", "subregion": "Death Mountain Trail - Middle",
+	"x": 803, "y": 245, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Death Mountain Trail → Song of Storms Grotto",
+	"entrance": ["OOT_GROTTO_GENERIC_DMT"],
+	"exit": ["OOT_GROTTO_EXIT_GENERIC_DMT"],
+	"region": "Death Mountain Trail", "subregion": "Death Mountain Trail - Middle",
+	"x": 740, "y": 280, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Death Mountain Trail → Cow Grotto",
+	"entrance": ["OOT_GROTTO_TRAIL_COW"],
+	"exit": ["OOT_GROTTO_EXIT_TRAIL_COW"],
+	"region": "Death Mountain Trail", "subregion": "Death Mountain Trail - Middle",
+	"x": 508, "y": 166, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Death Mountain Trail → Death Mountain Crater",
+	"entrance": ["OOT_DEATH_MOUNTAIN_CRATER"],
+	"exit": ["OOT_TRAIL_SUMMIT_FROM_CRATER"],
+	"region": "Death Mountain Trail", "subregion": "Death Mountain Trail - Top",
+	"x": 475, "y": 80, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Death Mountain Trail → Great Fairy Fountain",
+	"entrance": ["OOT_FAIRY_MAGIC"],
+	"exit": ["OOT_DEATH_MOUNTAIN_FROM_FAIRY"],
+	"region": "Death Mountain Trail", "subregion": "Death Mountain Trail - Top",
+	"x": 395, "y": 77, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Death Mountain Trail → Kakariko Village (Owl)",
+	"entrance": ["OOT_VILLAGE_OWL"],
+	"exit": [""],
+	"region": "Death Mountain Trail", "subregion": "Death Mountain Trail - Top",
+	"x": 510, "y": 101, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Cow Grotto → Death Mountain Trail",
+	"entrance": ["OOT_GROTTO_EXIT_TRAIL_COW"],
+	"exit": ["OOT_GROTTO_TRAIL_COW"],
+	"region": "Death Mountain Trail", "subregion": "Cow Grotto",
+	"x": 697, "y": 621, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Song of Storms Grotto → Death Mountain Trail",
+	"entrance": ["OOT_GROTTO_EXIT_GENERIC_DMT"],
+	"exit": ["OOT_GROTTO_GENERIC_DMT"],
+	"region": "Death Mountain Trail", "subregion": "Song of Storms Grotto",
+	"x": 671, "y": 593, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Great Fairy Fountain → Death Mountain Trail",
+	"entrance": ["OOT_DEATH_MOUNTAIN_FROM_FAIRY"],
+	"exit": ["OOT_FAIRY_MAGIC"],
+	"region": "Death Mountain Trail", "subregion": "Great Fairy Fountain",
+	"x": 499, "y": 554, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Death Mountain Crater → Death Mountain Trail",
+	"entrance": ["OOT_TRAIL_SUMMIT_FROM_CRATER"],
+	"exit": ["OOT_DEATH_MOUNTAIN_CRATER"],
+	"region": "Death Mountain Crater", "subregion": "Death Mountain Crater",
+	"x": 668, "y": 28, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Death Mountain Crater → Goron City",
+	"entrance": ["OOT_GORON_CITY_FROM_CRATER"],
+	"exit": ["OOT_CRATER_FROM_GORON_CITY"],
+	"region": "Death Mountain Crater", "subregion": "Death Mountain Crater",
+	"x": 754, "y": 365, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Death Mountain Crater → Fire Temple",
+	"entrance": ["OOT_TEMPLE_FIRE"],
+	"exit": ["OOT_DEATH_CRATER_FROM_TEMPLE_FIRE"],
+	"region": "Death Mountain Crater", "subregion": "Death Mountain Crater",
+	"x": 470, "y": 568, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Death Mountain Crater → Generic Grotto",
+	"entrance": ["OOT_GROTTO_GENERIC_DMC"],
+	"exit": ["OOT_GROTTO_EXIT_GENERIC_DMC"],
+	"region": "Death Mountain Crater", "subregion": "Death Mountain Crater",
+	"x": 471, "y": 84, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Death Mountain Crater → Deku Scrubs Grotto",
+	"entrance": ["OOT_GROTTO_SCRUBS3_DMC"],
+	"exit": ["OOT_GROTTO_EXIT_SCRUBS3_DMC"],
+	"region": "Death Mountain Crater", "subregion": "Death Mountain Crater",
+	"x": 717, "y": 456, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Death Mountain Crater → Great Fairy Fountain",
+	"entrance": ["OOT_FAIRY_MAGIC2"],
+	"exit": ["OOT_DEATH_CRATER_FROM_FAIRY"],
+	"region": "Death Mountain Crater", "subregion": "Death Mountain Crater",
+	"x": 712, "y": 219, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Generic Grotto → Death Mountain Crater",
+	"entrance": ["OOT_GROTTO_EXIT_GENERIC_DMC"],
+	"exit": ["OOT_GROTTO_GENERIC_DMC"],
+	"region": "Death Mountain Crater", "subregion": "Generic Grotto",
+	"x": 671, "y": 593, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Deku Scrubs Grotto → Death Mountain Crater",
+	"entrance": ["OOT_GROTTO_EXIT_SCRUBS3_DMC"],
+	"exit": ["OOT_GROTTO_SCRUBS3_DMC"],
+	"region": "Death Mountain Crater", "subregion": "Deku Scrubs Grotto",
+	"x": 695, "y": 711, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Great Fairy Fountain → Death Mountain Crater",
+	"entrance": ["OOT_DEATH_CRATER_FROM_FAIRY"],
+	"exit": ["OOT_FAIRY_MAGIC2"],
+	"region": "Death Mountain Crater", "subregion": "Great Fairy Fountain",
+	"x": 499, "y": 554, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Goron City → Death Mountain Trail",
+	"entrance": ["OOT_DEATH_MOUNTAIN_FROM_GORON_CITY"],
+	"exit": ["OOT_GORON_CITY"],
+	"region": "Goron City", "subregion": "Goron City",
+	"x": 97, "y": 354, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Goron City → Death Mountain Crater",
+	"entrance": ["OOT_CRATER_FROM_GORON_CITY"],
+	"exit": ["OOT_GORON_CITY_FROM_CRATER"],
+	"region": "Goron City", "subregion": "Goron City",
+	"x": 758, "y": 358, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	{"game": "OoT", "marker_name": "Goron City → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_GORON_CITY"],
+	"exit": ["OOT_GORON_CITY_FROM_LOST_WOODS"],
+	"region": "Goron City", "subregion": "Goron City",
+	"x": 189, "y": 450, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Goron City → Shop",
+	"entrance": ["OOT_SHOP_GORON"],
+	"exit": ["OOT_GORON_CITY_FROM_SHOP"],
+	"region": "Goron City", "subregion": "Goron City",
+	"x": 478, "y": 305, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Goron City → Deku Scrubs Grotto",
+	"entrance": ["OOT_GROTTO_SCRUBS3_GORON_CITY"],
+	"exit": ["OOT_GROTTO_EXIT_SCRUBS3_GORON_CITY"],
+	"region": "Goron City", "subregion": "Goron City",
+	"x": 743, "y": 578, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Shop → Goron City",
+	"entrance": ["OOT_GORON_CITY_FROM_SHOP"],
+	"exit": ["OOT_SHOP_GORON"],
+	"region": "Goron City", "subregion": "Shop",
+	"x": 457, "y": 591, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Deku Scrubs Grotto → Goron City",
+	"entrance": ["OOT_GROTTO_EXIT_SCRUBS3_GORON_CITY"],
+	"exit": ["OOT_GROTTO_SCRUBS3_GORON_CITY"],
+	"region": "Goron City", "subregion": "Deku Scrubs Grotto",
+	"x": 695, "y": 711, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Zora's River → Hyrule Field",
+	"entrance": ["OOT_FIELD_FROM_ZORA_RIVER"],
+	"exit": ["OOT_ZORA_RIVER_FROM_FIELD"],
+	"region": "Zora's River", "subregion": "Zora's River",
+	"x": 1256, "y": 172, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Zora's River → Zora's Domain",
+	"entrance": ["OOT_ZORA_DOMAIN"],
+	"exit": ["OOT_RIVER_FROM_DOMAIN"],
+	"region": "Zora's River", "subregion": "Zora's River",
+	"x": 69, "y": 701, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Zora's River → Lost Woods",
+	"entrance": ["OOT_LOST_WOODS_FROM_ZORA_RIVER"],
+	"exit": ["OOT_ZORA_RIVER_FROM_LOST_WOODS"],
+	"region": "Zora's River", "subregion": "Zora's River",
+	"x": 117, "y": 613, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Zora's River → Song of Storms Grotto",
+	"entrance": ["OOT_GROTTO_SCRUBS2_RIVER"],
+	"exit": ["OOT_GROTTO_EXIT_SCRUBS2_RIVER"],
+	"region": "Zora's River", "subregion": "Zora's River",
+	"x": 1293, "y": 417, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Zora's River → Generic Grotto",
+	"entrance": ["OOT_GROTTO_GENERIC_RIVER"],
+	"exit": ["OOT_GROTTO_EXIT_GENERIC_RIVER"],
+	"region": "Zora's River", "subregion": "Zora's River",
+	"x": 953, "y": 364, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Zora's River → Fairy Fountain",
+	"entrance": ["OOT_GROTTO_FAIRY_RIVER"],
+	"exit": ["OOT_GROTTO_EXIT_FAIRY_RIVER"],
+	"region": "Zora's River", "subregion": "Zora's River",
+	"x": 885, "y": 472, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Generic Grotto → Zora's River",
+	"entrance": ["OOT_GROTTO_EXIT_GENERIC_RIVER"],
+	"exit": ["OOT_GROTTO_GENERIC_RIVER"],
+	"region": "Zora's River", "subregion": "Generic Grotto",
+	"x": 671, "y": 593, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Song of Storms Grotto → Zora's River",
+	"entrance": ["OOT_GROTTO_EXIT_SCRUBS2_RIVER"],
+	"exit": ["OOT_GROTTO_SCRUBS2_RIVER"],
+	"region": "Zora's River", "subregion": "Song of Storms Grotto",
+	"x": 675, "y": 650, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Fairy Fountain → Zora's River",
+	"entrance": ["OOT_GROTTO_EXIT_FAIRY_RIVER"],
+	"exit": ["OOT_GROTTO_FAIRY_RIVER"],
+	"region": "Zora's River", "subregion": "Fairy Fountain",
+	"x": 485, "y": 526, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Zora's Domain → Zora's River",
+	"entrance": ["OOT_RIVER_FROM_DOMAIN"],
+	"exit": ["OOT_ZORA_DOMAIN"],
+	"region": "Zora's Domain", "subregion": "Zora's Domain",
+	"x": 184, "y": 477, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Zora's Domain → Zora's Fountain",
+	"entrance": ["OOT_FOUNTAIN_ZORA"],
+	"exit": ["OOT_DOMAIN_FROM_FOUNTAIN"],
+	"region": "Zora's Domain", "subregion": "Zora's Domain",
+	"x": 557, "y": 21, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Zora's Domain → Lake Hylia",
+	"entrance": ["OOT_LAKE_HYLIA_FROM_ZORA_DOMAIN"],
+	"exit": ["OOT_ZORA_DOMAIN_FROM_LAKE_HYLIA"],
+	"region": "Zora's Domain", "subregion": "Zora's Domain",
+	"x": 433, "y": 430, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Zora's Domain → Shop",
+	"entrance": ["OOT_SHOP_ZORA"],
+	"exit": ["OOT_ZORA_DOMAIN_FROM_SHOP"],
+	"region": "Zora's Domain", "subregion": "Zora's Domain",
+	"x": 535, "y": 492, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Zora's Domain → Fairy Fountain",
+	"entrance": ["OOT_GROTTO_FAIRY_DOMAIN"],
+	"exit": ["OOT_GROTTO_EXIT_FAIRY_DOMAIN"],
+	"region": "Zora's Domain", "subregion": "Zora's Domain",
+	"x": 334, "y": 380, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Shop → Zora's Domain",
+	"entrance": ["OOT_ZORA_DOMAIN_FROM_SHOP"],
+	"exit": ["OOT_SHOP_ZORA"],
+	"region": "Zora's Domain", "subregion": "Shop",
+	"x": 490, "y": 583, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Fairy Fountain → Zora's Domain",
+	"entrance": ["OOT_GROTTO_EXIT_FAIRY_DOMAIN"],
+	"exit": ["OOT_GROTTO_FAIRY_DOMAIN"],
+	"region": "Zora's Domain", "subregion": "Fairy Fountain",
+	"x": 485, "y": 526, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Zora's Fountain → Zora's Domain",
+	"entrance": ["OOT_DOMAIN_FROM_FOUNTAIN"],
+	"exit": ["OOT_FOUNTAIN_ZORA"],
+	"region": "Zora's Fountain", "subregion": "Zora's Fountain",
+	"x": 762, "y": 307, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Zora's Fountain → Jabu-Jabu's Belly",
+	"entrance": ["OOT_JABU_JABU"],
+	"exit": ["OOT_ZORA_FOUNTAIN_FROM_JABU_JABU"],
+	"region": "Zora's Fountain", "subregion": "Zora's Fountain",
+	"x": 631, "y": 393, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Zora's Fountain → Ice Cavern",
+	"entrance": ["OOT_ICE_CAVERN"],
+	"exit": ["OOT_ZORA_FOUNTAIN_FROM_ICE_CAVERN"],
+	"region": "Zora's Fountain", "subregion": "Zora's Fountain",
+	"x": 507, "y": 599, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Zora's Fountain → Great Fairy Fountain",
+	"entrance": ["OOT_FAIRY_FARORE"],
+	"exit": ["OOT_ZORA_FOUNTAIN_FROM_FAIRY"],
+	"region": "Zora's Fountain", "subregion": "Zora's Fountain",
+	"x": 438, "y": 35, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Great Fairy Fountain → Zora's Fountain",
+	"entrance": ["OOT_ZORA_FOUNTAIN_FROM_FAIRY"],
+	"exit": ["OOT_FAIRY_FARORE"],
+	"region": "Zora's Fountain", "subregion": "Great Fairy Fountain",
+	"x": 499, "y": 554, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Lake Hylia → Hyrule Field",
+	"entrance": ["OOT_FIELD_FROM_LAKE_HYLIA"],
+	"exit": ["OOT_LAKE_HYLIA_FROM_FIELD"],
+	"region": "Lake Hylia", "subregion": "Lake Hylia",
+	"x": 807, "y": 886, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lake Hylia → Zora's Domain",
+	"entrance": ["OOT_ZORA_DOMAIN_FROM_LAKE_HYLIA"],
+	"exit": ["OOT_LAKE_HYLIA_FROM_ZORA_DOMAIN"],
+	"region": "Lake Hylia", "subregion": "Lake Hylia",
+	"x": 682, "y": 638, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	{"game": "OoT", "marker_name": "Lake Hylia → Water Temple",
+	"entrance": ["OOT_TEMPLE_WATER"],
+	"exit": ["OOT_LAKE_HYLIA_FROM_TEMPLE_WATER"],
+	"region": "Lake Hylia", "subregion": "Lake Hylia",
+	"x": 686, "y": 350, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lake Hylia → Fishing Pond",
+	"entrance": ["OOT_FISHING_POND"],
+	"exit": ["OOT_LAKE_HYLIA_FROM_FISHING_POND"],
+	"region": "Lake Hylia", "subregion": "Lake Hylia",
+	"x": 430, "y": 597, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lake Hylia → Laboratory",
+	"entrance": ["OOT_LABORATORY"],
+	"exit": ["OOT_LAKE_HYLIA_FROM_LABORATORY"],
+	"region": "Lake Hylia", "subregion": "Lake Hylia",
+	"x": 864, "y": 593, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lake Hylia → Deku Scrubs Grotto",
+	"entrance": ["OOT_GROTTO_SCRUBS3_LAKE"],
+	"exit": ["OOT_GROTTO_EXIT_SCRUBS3_LAKE"],
+	"region": "Lake Hylia", "subregion": "Lake Hylia",
+	"x": 902, "y": 354, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Lake Hylia → Hyrule Field (Owl)",
+	"entrance": ["OOT_FIELD_OWL"],
+	"exit": [""],
+	"region": "Lake Hylia", "subregion": "Lake Hylia",
+	"x": 935, "y": 354, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/child.png"},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Laboratory → Lake Hylia",
+	"entrance": ["OOT_LAKE_HYLIA_FROM_LABORATORY"],
+	"exit": ["OOT_LABORATORY"],
+	"region": "Lake Hylia", "subregion": "Laboratory",
+	"x": 506, "y": 201, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Fishing Pond → Lake Hylia",
+	"entrance": ["OOT_LAKE_HYLIA_FROM_FISHING_POND"],
+	"exit": ["OOT_FISHING_POND"],
+	"region": "Lake Hylia", "subregion": "Fishing Pond",
+	"x": 691, "y": 41, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Deku Scrubs Grotto → Lake Hylia",
+	"entrance": ["OOT_GROTTO_EXIT_SCRUBS3_LAKE"],
+	"exit": ["OOT_GROTTO_SCRUBS3_LAKE"],
+	"region": "Lake Hylia", "subregion": "Deku Scrubs Grotto",
+	"x": 695, "y": 711, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Gerudo Valley → Hyrule Field",
+	"entrance": ["OOT_FIELD_FROM_GERUDO_VALLEY"],
+	"exit": ["OOT_GERUDO_VALLEY_FROM_FIELD"],
+	"region": "Gerudo Valley", "subregion": "Gerudo Valley",
+	"x": 898, "y": 452, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Gerudo Valley → Gerudo's Fortress",
+	"entrance": ["OOT_GERUDO_FORTRESS_FROM_VALLEY"],
+	"exit": ["OOT_VALLEY_FROM_GERUDO_FORTRESS"],
+	"region": "Gerudo Valley", "subregion": "Gerudo Valley",
+	"x": 42, "y": 297, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Gerudo Valley → Lake Hylia",
+	"entrance": ["OOT_LAKE_HYLIA_FROM_VALLEY"],
+	"exit": [""],
+	"region": "Gerudo Valley", "subregion": "Gerudo Valley",
+	"x": 492, "y": 601, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Gerudo Valley → Carpenters Tent",
+	"entrance": ["OOT_VALLEY_TENT"],
+	"exit": ["OOT_GERUDO_VALLEY_FROM_TENT"],
+	"region": "Gerudo Valley", "subregion": "Gerudo Valley",
+	"x": 331, "y": 255, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	{"game": "OoT", "marker_name": "Gerudo Valley → Song of Storms Grotto",
+	"entrance": ["OOT_GROTTO_SCRUBS2_VALLEY"],
+	"exit": ["OOT_GROTTO_EXIT_SCRUBS2_VALLEY"],
+	"region": "Gerudo Valley", "subregion": "Gerudo Valley",
+	"x": 292, "y": 188, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	{"game": "OoT", "marker_name": "Gerudo Valley → Octorok Grotto",
+	"entrance": ["OOT_GROTTO_OCTOROK"],
+	"exit": ["OOT_GROTTO_EXIT_OCTOROK"],
+	"region": "Gerudo Valley", "subregion": "Gerudo Valley",
+	"x": 516, "y": 558, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Carpenters Tent → Gerudo Valley",
+	"entrance": ["OOT_GERUDO_VALLEY_FROM_TENT"],
+	"exit": ["OOT_VALLEY_TENT"],
+	"region": "Gerudo Valley", "subregion": "Carpenters Tent",
+	"x": 614, "y": 286, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Octorok Grotto → Gerudo Valley",
+	"entrance": ["OOT_GROTTO_EXIT_OCTOROK"],
+	"exit": ["OOT_GROTTO_OCTOROK"],
+	"region": "Gerudo Valley", "subregion": "Octorok Grotto",
+	"x": 675, "y": 608, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Song of Storms Grotto → Gerudo Valley",
+	"entrance": ["OOT_GROTTO_EXIT_SCRUBS2_VALLEY"],
+	"exit": ["OOT_GROTTO_SCRUBS2_VALLEY"],
+	"region": "Gerudo Valley", "subregion": "Song of Storms Grotto",
+	"x": 675, "y": 650, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Gerudo's Fortress → Gerudo Valley",
+	"entrance": ["OOT_VALLEY_FROM_GERUDO_FORTRESS"],
+	"exit": ["OOT_GERUDO_FORTRESS_FROM_VALLEY"],
+	"region": "Gerudo's Fortress", "subregion": "Gerudo's Fortress",
+	"x": 704, "y": 592, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Gerudo's Fortress → Haunted Wasteland",
+	"entrance": ["OOT_WASTELAND"],
+	"exit": ["OOT_FORTRESS_FROM_WASTELAND"],
+	"region": "Gerudo's Fortress", "subregion": "Gerudo's Fortress",
+	"x": 409, "y": 604, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Gerudo's Fortress → Gerudo Training Grounds",
+	"entrance": ["OOT_GERUDO_TRAINING_GROUNDS"],
+	"exit": ["OOT_GERUDO_FORTRESS_FROM_GERUDO_TRAINING"],
+	"region": "Gerudo's Fortress", "subregion": "Gerudo's Fortress",
+	"x": 616, "y": 512, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": "res://images/marks_cond/adult.png"},
+	
+	{"game": "OoT", "marker_name": "Gerudo's Fortress → Fairy Fountain",
+	"entrance": ["OOT_GROTTO_FAIRY_FORTRESS"],
+	"exit": ["OOT_GROTTO_EXIT_FAIRY_FORTRESS"],
+	"region": "Gerudo's Fortress", "subregion": "Gerudo's Fortress",
+	"x": 533, "y": 463, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Fairy Fountain → Gerudo's Fortress",
+	"entrance": ["OOT_GROTTO_EXIT_FAIRY_FORTRESS"],
+	"exit": ["OOT_GROTTO_FAIRY_FORTRESS"],
+	"region": "Gerudo's Fortress", "subregion": "Fairy Fountain",
+	"x": 485, "y": 526, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Haunted Wasteland → Gerudo's Fortress",
+	"entrance": ["OOT_FORTRESS_FROM_WASTELAND"],
+	"exit": ["OOT_WASTELAND"],
+	"region": "Haunted Wasteland", "subregion": "Haunted Wasteland",
+	"x": 914, "y": 151, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Haunted Wasteland → Desert Colossus",
+	"entrance": ["OOT_COLOSSUS"],
+	"exit": ["OOT_WASTELAND_FROM_COLOSSUS"],
+	"region": "Haunted Wasteland", "subregion": "Haunted Wasteland",
+	"x": 82, "y": 564, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Desert Colossus → Haunted Wasteland",
+	"entrance": ["OOT_WASTELAND_FROM_COLOSSUS"],
+	"exit": ["OOT_COLOSSUS"],
+	"region": "Desert Colossus", "subregion": "Desert Colossus",
+	"x": 131, "y": 540, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Desert Colossus → Spirit Temple",
+	"entrance": ["OOT_TEMPLE_SPIRIT"],
+	"exit": ["OOT_DESERT_COLOSSUS_FROM_TEMPLE_SPIRIT"],
+	"region": "Desert Colossus", "subregion": "Desert Colossus",
+	"x": 739, "y": 195, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Desert Colossus → Deku Scrubs Grotto",
+	"entrance": ["OOT_GROTTO_SCRUBS2_COLOSSUS"],
+	"exit": ["OOT_GROTTO_EXIT_SCRUBS2_COLOSSUS"],
+	"region": "Desert Colossus", "subregion": "Desert Colossus",
+	"x": 603, "y": 437, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Desert Colossus → Great Fairy Fountain",
+	"entrance": ["OOT_FAIRY_NAYRU"],
+	"exit": ["OOT_DESERT_COLOSSUS_FROM_FAIRY"],
+	"region": "Desert Colossus", "subregion": "Desert Colossus",
+	"x": 374, "y": 599, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Deku Scrubs Grotto → Desert Colossus",
+	"entrance": ["OOT_GROTTO_EXIT_SCRUBS2_COLOSSUS"],
+	"exit": ["OOT_GROTTO_SCRUBS2_COLOSSUS"],
+	"region": "Desert Colossus", "subregion": "Deku Scrubs Grotto",
+	"x": 675, "y": 650, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Great Fairy Fountain → Desert Colossus",
+	"entrance": ["OOT_DESERT_COLOSSUS_FROM_FAIRY"],
+	"exit": ["OOT_FAIRY_NAYRU"],
+	"region": "Desert Colossus", "subregion": "Great Fairy Fountain",
+	"x": 499, "y": 554, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Deku Tree → Kokiri Forest",
+	"entrance": ["OOT_KOKIRI_FOREST_FROM_DEKU_TREE"],
+	"exit": ["OOT_DEKU_TREE"],
+	"region": "Deku Tree", "subregion": "Lobby",
+	"x": 1322, "y": 788, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Deku Tree → Boss Room",
+	"entrance": ["OOT_BOSS_DEKU_TREE"],
+	"exit": [""],
+	"region": "Deku Tree", "subregion": "Pre-Boss Room",
+	"x": 399, "y": 456, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Dodongo's Cavern → Death Mountain Trail",
+	"entrance": ["OOT_MOUNTAIN_TRAIL_FROM_DODONGO_CAVERN"],
+	"exit": ["OOT_DODONGO_CAVERN"],
+	"region": "Dodongo's Cavern", "subregion": "Lobby",
+	"x": 47, "y": 386, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Dodongo's Cavern → Boss Room",
+	"entrance": ["OOT_BOSS_DODONGO_CAVERN"],
+	"exit": [""],
+	"region": "Dodongo's Cavern", "subregion": "Pre-Boss Rooms",
+	"x": 294, "y": 66, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Jabu-Jabu's Belly → Zora's Fountain",
+	"entrance": ["OOT_ZORA_FOUNTAIN_FROM_JABU_JABU"],
+	"exit": ["OOT_JABU_JABU"],
+	"region": "Jabu-Jabu's Belly", "subregion": "Entrance",
+	"x": 881, "y": 338, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Jabu-Jabu's Belly → Boss Room",
+	"entrance": ["OOT_BOSS_JABU_JABU"],
+	"exit": [""],
+	"region": "Jabu-Jabu's Belly", "subregion": "Pre-Boss Room",
+	"x": 766, "y": 469, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Forest Temple → Sacred Forest Meadow",
+	"entrance": ["OOT_SACRED_MEADOW_FROM_TEMPLE_FOREST"],
+	"exit": ["OOT_TEMPLE_FOREST"],
+	"region": "Forest Temple", "subregion": "Entrance",
+	"x": 472, "y": 134, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Forest Temple → Boss Room",
+	"entrance": ["OOT_BOSS_TEMPLE_FOREST"],
+	"exit": [""],
+	"region": "Forest Temple", "subregion": "Pre-Boss Room",
+	"x": 649, "y": 142, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Fire Temple → Death Mountain Crater",
+	"entrance": ["OOT_DEATH_CRATER_FROM_TEMPLE_FIRE"],
+	"exit": ["OOT_TEMPLE_FIRE"],
+	"region": "Fire Temple", "subregion": "Lobby",
+	"x": 474, "y": 550, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Fire Temple → Boss Room",
+	"entrance": ["OOT_BOSS_TEMPLE_FIRE"],
+	"exit": [""],
+	"region": "Fire Temple", "subregion": "Darunia Room",
+	"x": 459, "y": 229, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Water Temple → Lake Hylia",
+	"entrance": ["OOT_LAKE_HYLIA_FROM_TEMPLE_WATER"],
+	"exit": ["OOT_TEMPLE_WATER"],
+	"region": "Water Temple", "subregion": "Lobby",
+	"x": 304, "y": 383, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Water Temple → Boss Room",
+	"entrance": ["OOT_BOSS_TEMPLE_WATER"],
+	"exit": [""],
+	"region": "Water Temple", "subregion": "Pre-Boss Room",
+	"x": 808, "y": 307, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Shadow Temple → Graveyard",
+	"entrance": ["OOT_GRAVEYARD_FROM_TEMPLE_SHADOW"],
+	"exit": ["OOT_TEMPLE_SHADOW"],
+	"region": "Shadow Temple", "subregion": "Entrance",
+	"x": 573, "y": 837, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Shadow Temple → Boss Room",
+	"entrance": ["OOT_BOSS_TEMPLE_SHADOW"],
+	"exit": [""],
+	"region": "Shadow Temple", "subregion": "Pre-Boss Room",
+	"x": 391, "y": 531, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Spirit Temple → Desert Colossus",
+	"entrance": ["OOT_DESERT_COLOSSUS_FROM_TEMPLE_SPIRIT"],
+	"exit": ["OOT_TEMPLE_SPIRIT"],
+	"region": "Spirit Temple", "subregion": "Entrance",
+	"x": 721, "y": 871, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Spirit Temple → Boss Room",
+	"entrance": ["OOT_BOSS_TEMPLE_SPIRIT"],
+	"exit": [""],
+	"region": "Spirit Temple", "subregion": "Main Room",
+	"x": 489, "y": 97, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Ice Cavern → Zora's Fountain",
+	"entrance": ["OOT_ZORA_FOUNTAIN_FROM_ICE_CAVERN"],
+	"exit": ["OOT_ICE_CAVERN"],
+	"region": "Ice Cavern", "subregion": "First Room",
+	"x": 59, "y": 541, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Bottom of the Well → Kakariko Village",
+	"entrance": ["OOT_KAKARIKO_FROM_BOTTOM_OF_THE_WELL"],
+	"exit": ["OOT_BOTTOM_OF_THE_WELL"],
+	"region": "Bottom of the Well", "subregion": "Main",
+	"x": 845, "y": 871, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Gerudo Training Grounds → Gerudo's Fortress",
+	"entrance": ["OOT_GERUDO_FORTRESS_FROM_GERUDO_TRAINING"],
+	"exit": ["OOT_GERUDO_TRAINING_GROUNDS"],
+	"region": "Gerudo's Training Ground", "subregion": "Entrance",
+	"x": 484, "y": 563, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Inside Ganon's Castle → Outside Ganon's Castle",
+	"entrance": ["OOT_GANON_CASTLE_EXTERIOR_FROM_CASTLE"],
+	"exit": ["OOT_GANON_CASTLE"],
+	"region": "Inside Ganon's Castle", "subregion": "Lobby",
+	"x": 152, "y": 458, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "OoT", "marker_name": "Inside Ganon's Castle → Ganon's Tower",
+	"entrance": ["OOT_GANON_TOWER"],
+	"exit": ["OOT_GANON_CASTLE_FROM_TOWER"],
+	"region": "Inside Ganon's Castle", "subregion": "Lobby",
+	"x": 405, "y": 456, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "OoT", "marker_name": "Ganon's Tower → Inside Ganon's Castle",
+	"entrance": ["OOT_GANON_CASTLE_FROM_TOWER"],
+	"exit": ["OOT_GANON_TOWER"],
+	"region": "Ganon's Tower", "subregion": "Entrance",
+	"x": 267, "y": 282, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	
+	
+	{"game": "MM", "marker_name": "South Clock Town → Clock Tower",
+	"entrance": ["MM_CLOCK_TOWER_FROM_CLOCK_TOWN"],
+	"exit": ["MM_CLOCK_TOWN_FROM_CLOCK_TOWER"],
+	"region": "Clock Town", "subregion": "South Clock Town",
+	"x": 351, "y": 284, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "South Clock Town → Clock Tower Rooftop",
+	"entrance": ["MM_CLOCK_TOWER_ROOF"],
+	"exit": ["MM_CLOCK_TOWN_FROM_CLOCK_TOWER_ROOF"],
+	"region": "Clock Town", "subregion": "South Clock Town",
+	"x": 308, "y": 177, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "South Clock Town → Termina Field",
+	"entrance": ["MM_TERMINA_FIELD_FROM_CLOCK_TOWN_SOUTH"],
+	"exit": ["MM_CLOCK_TOWN_SOUTH_FROM_FIELD"],
+	"region": "Clock Town", "subregion": "South Clock Town",
+	"x": 840, "y": 464, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "South Clock Town → Laundry Pool",
+	"entrance": ["MM_LAUNDRY_POOL"],
+	"exit": ["MM_CLOCK_TOWN_SOUTH_FROM_LAUNDRY_POOL"],
+	"region": "Clock Town", "subregion": "South Clock Town",
+	"x": 594, "y": 601, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "South Clock Town → North Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_NORTH_FROM_SOUTH"],
+	"exit": ["MM_CLOCK_TOWN_SOUTH_FROM_NORTH"],
+	"region": "Clock Town", "subregion": "South Clock Town",
+	"x": 74, "y": 140, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "South Clock Town → West Clock Town (Top)",
+	"entrance": ["MM_CLOCK_TOWN_WEST_FROM_SOUTH_TOP"],
+	"exit": ["MM_CLOCK_TOWN_SOUTH_TOP_FROM_WEST"],
+	"region": "Clock Town", "subregion": "South Clock Town",
+	"x": 60, "y": 348, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "South Clock Town → West Clock Town (Bottom)",
+	"entrance": ["MM_CLOCK_TOWN_WEST_FROM_SOUTH_BOTTOM"],
+	"exit": ["MM_CLOCK_TOWN_SOUTH_BOTTOM_FROM_WEST"],
+	"region": "Clock Town", "subregion": "South Clock Town",
+	"x": 355, "y": 578, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "South Clock Town → East Clock Town (Top)",
+	"entrance": ["MM_CLOCK_TOWN_EAST_FROM_SOUTH_TOP"],
+	"exit": ["MM_CLOCK_TOWN_SOUTH_TOP_FROM_EAST"],
+	"region": "Clock Town", "subregion": "South Clock Town",
+	"x": 367, "y": 175, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "South Clock Town → East Clock Town (Bottom)",
+	"entrance": ["MM_CLOCK_TOWN_EAST_FROM_SOUTH_BOTTOM"],
+	"exit": ["MM_CLOCK_TOWN_SOUTH_BOTTOM_FROM_EAST"],
+	"region": "Clock Town", "subregion": "South Clock Town",
+	"x": 675, "y": 205, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "North Clock Town → South Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_SOUTH_FROM_NORTH"],
+	"exit": ["MM_CLOCK_TOWN_NORTH_FROM_SOUTH"],
+	"region": "Clock Town", "subregion": "North Clock Town",
+	"x": 348, "y": 237, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "North Clock Town → East Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_EAST_FROM_NORTH"],
+	"exit": ["MM_CLOCK_TOWN_NORTH_FROM_EAST"],
+	"region": "Clock Town", "subregion": "North Clock Town",
+	"x": 351, "y": 594, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "North Clock Town → Termina Field",
+	"entrance": ["MM_TERMINA_FIELD_FROM_CLOCK_TOWN_NORTH"],
+	"exit": ["MM_CLOCK_TOWN_NORTH_FROM_FIELD"],
+	"region": "Clock Town", "subregion": "North Clock Town",
+	"x": 616, "y": 237, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "North Clock Town → Deku Playground",
+	"entrance": ["MM_GROTTO_DEKU_PLAYGROUND"],
+	"exit": ["MM_GROTTO_EXIT_DEKU_PLAYGROUND"],
+	"region": "Clock Town", "subregion": "North Clock Town",
+	"x": 366, "y": 76, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "North Clock Town → Fairy Fountain",
+	"entrance": ["MM_FAIRY_FOUNTAIN_TOWN"],
+	"exit": ["MM_CLOCK_TOWN_NORTH_FROM_FAIRY_FOUNTAIN"],
+	"region": "Clock Town", "subregion": "North Clock Town",
+	"x": 463, "y": 43, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "West Clock Town → South Clock Town (Top)",
+	"entrance": ["MM_CLOCK_TOWN_SOUTH_TOP_FROM_WEST"],
+	"exit": ["MM_CLOCK_TOWN_WEST_FROM_SOUTH_TOP"],
+	"region": "Clock Town", "subregion": "West Clock Town",
+	"x": 336, "y": 96, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "West Clock Town → South Clock Town (Bottom)",
+	"entrance": ["MM_CLOCK_TOWN_SOUTH_BOTTOM_FROM_WEST"],
+	"exit": ["MM_CLOCK_TOWN_WEST_FROM_SOUTH_BOTTOM"],
+	"region": "Clock Town", "subregion": "West Clock Town",
+	"x": 765, "y": 154, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "West Clock Town → Termina Field",
+	"entrance": ["MM_TERMINA_FIELD_FROM_CLOCK_TOWN_WEST"],
+	"exit": ["MM_CLOCK_TOWN_WEST_FROM_FIELD"],
+	"region": "Clock Town", "subregion": "West Clock Town",
+	"x": 235, "y": 577, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "West Clock Town → Swordsman School",
+	"entrance": ["MM_SWORDSMAN_SCHOOL"],
+	"exit": ["MM_CLOCK_TOWN_WEST_FROM_SWORDSMAN_SCHOOL"],
+	"region": "Clock Town", "subregion": "West Clock Town",
+	"x": 34, "y": 455, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "West Clock Town → Post Office",
+	"entrance": ["MM_POST_OFFICE"],
+	"exit": ["MM_CLOCK_TOWN_WEST_FROM_POST_OFFICE"],
+	"region": "Clock Town", "subregion": "West Clock Town",
+	"x": 92, "y": 308, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "West Clock Town → Lottery",
+	"entrance": ["MM_LOTTERY"],
+	"exit": ["MM_CLOCK_TOWN_WEST_FROM_LOTTERY"],
+	"region": "Clock Town", "subregion": "West Clock Town",
+	"x": 447, "y": 243, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "West Clock Town → Bomb Shop",
+	"entrance": ["MM_BOMB_SHOP"],
+	"exit": ["MM_CLOCK_TOWN_WEST_FROM_BOMB_SHOP"],
+	"region": "Clock Town", "subregion": "West Clock Town",
+	"x": 616, "y": 441, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "West Clock Town → Trading Post",
+	"entrance": ["MM_TRADING_POST"],
+	"exit": ["MM_CLOCK_TOWN_WEST_FROM_TRADING_POST"],
+	"region": "Clock Town", "subregion": "West Clock Town",
+	"x": 796, "y": 381, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "West Clock Town → Curiosity Shop",
+	"entrance": ["MM_CURIOSITY_SHOP"],
+	"exit": ["MM_CLOCK_TOWN_WEST_FROM_CURIOSITY_SHOP"],
+	"region": "Clock Town", "subregion": "West Clock Town",
+	"x": 858, "y": 274, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "East Clock Town → South Clock Town (Top)",
+	"entrance": ["MM_CLOCK_TOWN_SOUTH_TOP_FROM_EAST"],
+	"exit": ["MM_CLOCK_TOWN_EAST_FROM_SOUTH_TOP"],
+	"region": "Clock Town", "subregion": "East Clock Town",
+	"x": 257, "y": 518, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "East Clock Town → South Clock Town (Bottom)",
+	"entrance": ["MM_CLOCK_TOWN_SOUTH_BOTTOM_FROM_EAST"],
+	"exit": ["MM_CLOCK_TOWN_EAST_FROM_SOUTH_BOTTOM"],
+	"region": "Clock Town", "subregion": "East Clock Town",
+	"x": 647, "y": 581, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "East Clock Town → North Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_NORTH_FROM_EAST"],
+	"exit": ["MM_CLOCK_TOWN_EAST_FROM_NORTH"],
+	"region": "Clock Town", "subregion": "East Clock Town",
+	"x": 19, "y": 263, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "East Clock Town → Termina Field",
+	"entrance": ["MM_TERMINA_FIELD_FROM_CLOCK_TOWN_EAST"],
+	"exit": ["MM_CLOCK_TOWN_EAST_FROM_FIELD"],
+	"region": "Clock Town", "subregion": "East Clock Town",
+	"x": 415, "y": 272, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "East Clock Town → Astral Observatory",
+	"entrance": ["MM_ASTRAL_OBSERVATORY_FROM_CLOCK_TOWN_EAST"],
+	"exit": ["MM_CLOCK_TOWN_EAST_FROM_ASTRAL_OBSERVATORY"],
+	"region": "Clock Town", "subregion": "East Clock Town",
+	"x": 95, "y": 176, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "East Clock Town → Town Hall",
+	"entrance": ["MM_MAYORS_OFFICE"],
+	"exit": ["MM_CLOCK_TOWN_EAST_FROM_MAYORS_OFFICE"],
+	"region": "Clock Town", "subregion": "East Clock Town",
+	"x": 19, "y": 215, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "East Clock Town → Stock Pot Inn",
+	"entrance": ["MM_STOCK_POT_INN"],
+	"exit": ["MM_CLOCK_TOWN_EAST_FROM_STOCK_POT_INN"],
+	"region": "Clock Town", "subregion": "East Clock Town",
+	"x": 256, "y": 395, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "East Clock Town → Stock Pot Inn (Roof)",
+	"entrance": ["MM_STOCK_POT_INN_ROOF"],
+	"exit": ["MM_CLOCK_TOWN_EAST_FROM_STOCK_POT_INN_ROOF"],
+	"region": "Clock Town", "subregion": "East Clock Town",
+	"x": 56, "y": 339, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "East Clock Town → Milk Bar",
+	"entrance": ["MM_MILK_BAR"],
+	"exit": ["MM_CLOCK_TOWN_EAST_FROM_MILK_BAR"],
+	"region": "Clock Town", "subregion": "East Clock Town",
+	"x": 312, "y": 315, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "East Clock Town → Treasure Chest Game",
+	"entrance": ["MM_CHEST_GAME"],
+	"exit": ["MM_CLOCK_TOWN_EAST_FROM_CHEST_GAME"],
+	"region": "Clock Town", "subregion": "East Clock Town",
+	"x": 488, "y": 485, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "East Clock Town → Honey & Darling",
+	"entrance": ["MM_HONEY_AND_DARLING_GAME"],
+	"exit": ["MM_CLOCK_TOWN_EAST_FROM_HONEY_AND_DARLING"],
+	"region": "Clock Town", "subregion": "East Clock Town",
+	"x": 544, "y": 305, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "East Clock Town → Shooting Gallery",
+	"entrance": ["MM_TOWN_ARCHERY"],
+	"exit": ["MM_CLOCK_TOWN_EAST_FROM_TOWN_ARCHERY"],
+	"region": "Clock Town", "subregion": "East Clock Town",
+	"x": 705, "y": 403, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Laundry Pool → South Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_SOUTH_FROM_LAUNDRY_POOL"],
+	"exit": ["MM_LAUNDRY_POOL"],
+	"region": "Clock Town", "subregion": "Laundry Pool",
+	"x": 544, "y": 29, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Laundry Pool → Kafei's Hideout",
+	"entrance": ["MM_KAFEI_HIDEOUT"],
+	"exit": ["MM_LAUNDRY_POOL_FROM_KAFEI_HIDEOUT"],
+	"region": "Clock Town", "subregion": "Laundry Pool",
+	"x": 167, "y": 412, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Bomb Shop → West Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_WEST_FROM_BOMB_SHOP"],
+	"exit": ["MM_BOMB_SHOP"],
+	"region": "Clock Town", "subregion": "Bomb Shop",
+	"x": 322, "y": 596, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Trading Post → West Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_WEST_FROM_TRADING_POST"],
+	"exit": ["MM_TRADING_POST"],
+	"region": "Clock Town", "subregion": "Trading Post",
+	"x": 500, "y": 590, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Curiosity Shop → West Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_WEST_FROM_CURIOSITY_SHOP"],
+	"exit": ["MM_CURIOSITY_SHOP"],
+	"region": "Clock Town", "subregion": "Curiosity Shop/Kafei's Hideout",
+	"x": 43, "y": 382, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Kafei's Hideout → Laundry Pool",
+	"entrance": ["MM_LAUNDRY_POOL_FROM_KAFEI_HIDEOUT"],
+	"exit": ["MM_KAFEI_HIDEOUT"],
+	"region": "Clock Town", "subregion": "Curiosity Shop/Kafei's Hideout",
+	"x": 780, "y": 171, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Kafei's Hideout → Curiosity Shop (Telescope)",
+	"entrance": ["MM_CURIOSITY_SHOP_TELESCOPE"],
+	"exit": ["MM_KAFEI_HIDEOUT_FROM_TELESCOPE"],
+	"region": "Clock Town", "subregion": "Curiosity Shop/Kafei's Hideout",
+	"x": 528, "y": 305, "size": 32,
+	"image": "res://images/marks/entrances/telescope.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Swordsman School → West Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_WEST_FROM_SWORDSMAN_SCHOOL"],
+	"exit": ["MM_SWORDSMAN_SCHOOL"],
+	"region": "Clock Town", "subregion": "Swordsman School",
+	"x": 169, "y": 360, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Post Office → West Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_WEST_FROM_POST_OFFICE"],
+	"exit": ["MM_POST_OFFICE"],
+	"region": "Clock Town", "subregion": "Post Office",
+	"x": 774, "y": 320, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Lottery → West Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_WEST_FROM_LOTTERY"],
+	"exit": ["MM_LOTTERY"],
+	"region": "Clock Town", "subregion": "Lottery",
+	"x": 194, "y": 363, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Shooting Gallery → East Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_EAST_FROM_TOWN_ARCHERY"],
+	"exit": ["MM_TOWN_ARCHERY"],
+	"region": "Clock Town", "subregion": "Shooting Gallery",
+	"x": 801, "y": 353, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Treasure Chest Game → East Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_EAST_FROM_CHEST_GAME"],
+	"exit": ["MM_CHEST_GAME"],
+	"region": "Clock Town", "subregion": "Treasure Chest Game",
+	"x": 798, "y": 448, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Honey & Darling → East Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_EAST_FROM_HONEY_AND_DARLING"],
+	"exit": ["MM_HONEY_AND_DARLING_GAME"],
+	"region": "Clock Town", "subregion": "Honey & Darling",
+	"x": 472, "y": 93, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Town Hall → East Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_EAST_FROM_MAYORS_OFFICE"],
+	"exit": ["MM_MAYORS_OFFICE"],
+	"region": "Clock Town", "subregion": "Town Hall",
+	"x": 463, "y": 602, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Milk Bar → East Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_EAST_FROM_MILK_BAR"],
+	"exit": ["MM_MILK_BAR"],
+	"region": "Clock Town", "subregion": "Milk Bar",
+	"x": 845, "y": 444, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Astral Observatory → East Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_EAST_FROM_ASTRAL_OBSERVATORY"],
+	"exit": ["MM_ASTRAL_OBSERVATORY_FROM_CLOCK_TOWN_EAST"],
+	"region": "Clock Town", "subregion": "Astral Observatory - Passage",
+	"x": 882, "y": 157, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Astral Observatory → Termina Field",
+	"entrance": ["MM_FIELD_FROM_ASTRAL_OBSERVATORY"],
+	"exit": ["MM_ASTRAL_OBSERVATORY_FROM_FIELD"],
+	"region": "Clock Town", "subregion": "Astral Observatory",
+	"x": 321, "y": 262, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Astral Observatory → Termina Field (Telescope)",
+	"entrance": ["MM_TERMINA_FIELD_TELESCOPE"],
+	"exit": ["MM_ASTRAL_OBSERVATORY_FROM_TELESCOPE"],
+	"region": "Clock Town", "subregion": "Astral Observatory",
+	"x": 601, "y": 240, "size": 32,
+	"image": "res://images/marks/entrances/telescope.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Stock Pot Inn → East Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_EAST_FROM_STOCK_POT_INN"],
+	"exit": ["MM_STOCK_POT_INN"],
+	"region": "Clock Town", "subregion": "Stock Pot Inn - Lobby",
+	"x": 567, "y": 557, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Stock Pot Inn (Roof) → East Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_EAST_FROM_STOCK_POT_INN_ROOF"],
+	"exit": ["MM_STOCK_POT_INN_ROOF"],
+	"region": "Clock Town", "subregion": "Stock Pot Inn - Back",
+	"x": 209, "y": 98, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Deku Playground → North Clock Town",
+	"entrance": ["MM_GROTTO_EXIT_DEKU_PLAYGROUND"],
+	"exit": ["MM_GROTTO_DEKU_PLAYGROUND"],
+	"region": "Clock Town", "subregion": "Deku Playground",
+	"x": 143, "y": 314, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Fairy Fountain → North Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_NORTH_FROM_FAIRY_FOUNTAIN"],
+	"exit": ["MM_FAIRY_FOUNTAIN_TOWN"],
+	"region": "Clock Town", "subregion": "Fairy Fountain",
+	"x": 476, "y": 592, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Termina Field → South Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_SOUTH_FROM_FIELD"],
+	"exit": ["MM_TERMINA_FIELD_FROM_CLOCK_TOWN_SOUTH"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1468, "y": 1115, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → North Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_NORTH_FROM_FIELD"],
+	"exit": ["MM_TERMINA_FIELD_FROM_CLOCK_TOWN_NORTH"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1454, "y": 393, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → West Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_WEST_FROM_FIELD"],
+	"exit": ["MM_TERMINA_FIELD_FROM_CLOCK_TOWN_WEST"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1114, "y": 752, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → East Clock Town",
+	"entrance": ["MM_CLOCK_TOWN_EAST_FROM_FIELD"],
+	"exit": ["MM_TERMINA_FIELD_FROM_CLOCK_TOWN_EAST"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1818, "y": 742, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Road to Southern Swamp",
+	"entrance": ["MM_SWAMP_ROAD_FROM_FIELD"],
+	"exit": ["MM_TERMINA_FIELD_FROM_ROAD_TO_SWAMP"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1515, "y": 1780, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Milk Road",
+	"entrance": ["MM_MILK_ROAD_FROM_FIELD"],
+	"exit": ["MM_TERMINA_FIELD_FROM_MILK_ROAD"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 819, "y": 1590, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Great Bay Coast",
+	"entrance": ["MM_GREAT_BAY_COAST_FROM_FIELD"],
+	"exit": ["MM_TERMINA_FIELD_FROM_GREAT_BAY_COAST"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 270, "y": 714, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Path to Mountain Village",
+	"entrance": ["MM_MOUNTAIN_VILLAGE_PATH_FROM_TERMINA_FIELD"],
+	"exit": ["MM_TERMINA_FIELD_FROM_PATH_TO_MOUNTAIN_VILLAGE"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1489, "y": 31, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Road to Ikana",
+	"entrance": ["MM_IKANA_ROAD_FROM_FIELD"],
+	"exit": ["MM_TERMINA_FIELD_FROM_ROAD_TO_IKANA"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 2474, "y": 679, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Astral Observatory",
+	"entrance": ["MM_ASTRAL_OBSERVATORY_FROM_FIELD"],
+	"exit": ["MM_FIELD_FROM_ASTRAL_OBSERVATORY"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 2247, "y": 1045, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Cow Grotto",
+	"entrance": ["MM_GROTTO_COW_FIELD"],
+	"exit": ["MM_GROTTO_EXIT_COW_FIELD"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1479, "y": 1493, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Pillar Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_FIELD_PILLAR"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_FIELD_PILLAR"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1956, "y": 773, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Tall Grass Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_GRASS"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_GRASS"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1726, "y": 1462, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Deku Scrub Grotto",
+	"entrance": ["MM_GROTTO_SCRUB"],
+	"exit": ["MM_GROTTO_EXIT_SCRUB"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 2111, "y": 1011, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Dodongo Grotto",
+	"entrance": ["MM_GROTTO_DODONGO"],
+	"exit": ["MM_GROTTO_EXIT_DODONGO"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1162, "y": 318, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Bio Baba Grotto",
+	"entrance": ["MM_GROTTO_BIO_BABA"],
+	"exit": ["MM_GROTTO_EXIT_BIO_BABA"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 642, "y": 764, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Peahat Grotto",
+	"entrance": ["MM_GROTTO_PEAHAT"],
+	"exit": ["MM_GROTTO_EXIT_PEAHAT"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1156, "y": 1444, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Swamp Gossip Stone Grotto",
+	"entrance": ["MM_GROTTO_GOSSIPS_SWAMP"],
+	"exit": ["MM_GROTTO_EXIT_GOSSIPS_SWAMP"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1256, "y": 1645, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Mountain Gossip Stone Grotto",
+	"entrance": ["MM_GROTTO_GOSSIPS_MOUNTAIN"],
+	"exit": ["MM_GROTTO_EXIT_GOSSIPS_MOUNTAIN"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1552, "y": 300, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Ocean Gossip Stone Grotto",
+	"entrance": ["MM_GROTTO_GOSSIPS_OCEAN"],
+	"exit": ["MM_GROTTO_EXIT_GOSSIPS_OCEAN"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 1049, "y": 534, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Termina Field → Canyon Gossip Stone Grotto",
+	"entrance": ["MM_GROTTO_GOSSIPS_CANYON"],
+	"exit": ["MM_GROTTO_EXIT_GOSSIPS_CANYON"],
+	"region": "Termina Field", "subregion": "Termina Field",
+	"x": 2320, "y": 937, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Cow Grotto → Termina Field",
+	"entrance": ["MM_GROTTO_EXIT_COW_FIELD"],
+	"exit": ["MM_GROTTO_COW_FIELD"],
+	"region": "Termina Field", "subregion": "Cow Grotto",
+	"x": 242, "y": 481, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Bio Baba Grotto → Termina Field",
+	"entrance": ["MM_GROTTO_EXIT_BIO_BABA"],
+	"exit": ["MM_GROTTO_BIO_BABA"],
+	"region": "Termina Field", "subregion": "Bio Baba Grotto",
+	"x": 730, "y": 335, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Peahat Grotto → Termina Field",
+	"entrance": ["MM_GROTTO_EXIT_PEAHAT"],
+	"exit": ["MM_GROTTO_PEAHAT"],
+	"region": "Termina Field", "subregion": "Peahat Grotto",
+	"x": 780, "y": 489, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Dodongo Grotto → Termina Field",
+	"entrance": ["MM_GROTTO_EXIT_DODONGO"],
+	"exit": ["MM_GROTTO_DODONGO"],
+	"region": "Termina Field", "subregion": "Dodongo Grotto",
+	"x": 230, "y": 490, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Deku Scrub Grotto → Termina Field",
+	"entrance": ["MM_GROTTO_EXIT_SCRUB"],
+	"exit": ["MM_GROTTO_SCRUB"],
+	"region": "Termina Field", "subregion": "Deku Scrub Grotto",
+	"x": 664, "y": 421, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Tall Grass Grotto → Termina Field",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_GRASS"],
+	"exit": ["MM_GROTTO_GENERIC_GRASS"],
+	"region": "Termina Field", "subregion": "Tall Grass Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Pillar Grotto → Termina Field",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_FIELD_PILLAR"],
+	"exit": ["MM_GROTTO_GENERIC_FIELD_PILLAR"],
+	"region": "Termina Field", "subregion": "Pillar Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Swamp Gossip Stone Grotto → Termina Field",
+	"entrance": ["MM_GROTTO_EXIT_GOSSIPS_SWAMP"],
+	"exit": ["MM_GROTTO_GOSSIPS_SWAMP"],
+	"region": "Termina Field", "subregion": "Swamp Gossip Stone Grotto",
+	"x": 171, "y": 306, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Mountain Gossip Stone Grotto → Termina Field",
+	"entrance": ["MM_GROTTO_EXIT_GOSSIPS_MOUNTAIN"],
+	"exit": ["MM_GROTTO_GOSSIPS_MOUNTAIN"],
+	"region": "Termina Field", "subregion": "Mountain Gossip Stone Grotto",
+	"x": 656, "y": 322, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Ocean Gossip Stone Grotto → Termina Field",
+	"entrance": ["MM_GROTTO_EXIT_GOSSIPS_OCEAN"],
+	"exit": ["MM_GROTTO_GOSSIPS_OCEAN"],
+	"region": "Termina Field", "subregion": "Ocean Gossip Stone Grotto",
+	"x": 256, "y": 479, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Canyon Gossip Stone Grotto → Termina Field",
+	"entrance": ["MM_GROTTO_EXIT_GOSSIPS_CANYON"],
+	"exit": ["MM_GROTTO_GOSSIPS_CANYON"],
+	"region": "Termina Field", "subregion": "Canyon Gossip Stone Grotto",
+	"x": 744, "y": 483, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Milk Road → Termina Field",
+	"entrance": ["MM_TERMINA_FIELD_FROM_MILK_ROAD"],
+	"exit": ["MM_MILK_ROAD_FROM_FIELD"],
+	"region": "Milk Road", "subregion": "Milk Road",
+	"x": 111, "y": 389, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Milk Road → Romani Ranch",
+	"entrance": ["MM_ROMANI_RANCH_FROM_MILK_ROAD"],
+	"exit": ["MM_MILK_ROAD_FROM_ROMANI_RANCH"],
+	"region": "Milk Road", "subregion": "Milk Road",
+	"x": 890, "y": 298, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Milk Road → Gorman's Track",
+	"entrance": ["MM_GORMAN_TRACK_FROM_MILK_ROAD"],
+	"exit": ["MM_MILK_ROAD_FROM_GORMAN_TRACK"],
+	"region": "Milk Road", "subregion": "Milk Road",
+	"x": 255, "y": 65, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Milk Road → Gorman's Track (Back)",
+	"entrance": ["MM_GORMAN_BACK_FROM_MILK_ROAD"],
+	"exit": ["MM_MILK_ROAD_FROM_GORMAN_BACK"],
+	"region": "Milk Road", "subregion": "Milk Road",
+	"x": 775, "y": 69, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Gorman's Track → Milk Road",
+	"entrance": ["MM_MILK_ROAD_FROM_GORMAN_TRACK"],
+	"exit": ["MM_GORMAN_TRACK_FROM_MILK_ROAD"],
+	"region": "Milk Road", "subregion": "Gorman's Track",
+	"x": 714, "y": 185, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Gorman's Track (Back) → Milk Road",
+	"entrance": ["MM_MILK_ROAD_FROM_GORMAN_BACK"],
+	"exit": ["MM_GORMAN_BACK_FROM_MILK_ROAD"],
+	"region": "Milk Road", "subregion": "Gorman's Track",
+	"x": 349, "y": 20, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Romani Ranch → Milk Road",
+	"entrance": ["MM_MILK_ROAD_FROM_ROMANI_RANCH"],
+	"exit": ["MM_ROMANI_RANCH_FROM_MILK_ROAD"],
+	"region": "Romani Ranch", "subregion": "Romani Ranch",
+	"x": 889, "y": 375, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Romani Ranch → Ranch House",
+	"entrance": ["MM_RANCH_HOUSE"],
+	"exit": ["MM_ROMANI_RANCH_FROM_RANCH_HOUSE"],
+	"region": "Romani Ranch", "subregion": "Romani Ranch",
+	"x": 290, "y": 137, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Romani Ranch → Ranch Barn",
+	"entrance": ["MM_STABLES"],
+	"exit": ["MM_ROMANI_RANCH_FROM_STABLES"],
+	"region": "Romani Ranch", "subregion": "Romani Ranch",
+	"x": 383, "y": 102, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Romani Ranch → Cucco Shack",
+	"entrance": ["MM_CUCCO_SHACK"],
+	"exit": ["MM_ROMANI_RANCH_FROM_CUCCO_SHACK"],
+	"region": "Romani Ranch", "subregion": "Romani Ranch",
+	"x": 36, "y": 339, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Romani Ranch → Doggy Racetrack",
+	"entrance": ["MM_DOGGY_RACETRACK"],
+	"exit": ["MM_ROMANI_RANCH_FROM_DOGGY_RACETRACK"],
+	"region": "Romani Ranch", "subregion": "Romani Ranch",
+	"x": 73, "y": 441, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Ranch House → Romani Ranch",
+	"entrance": ["MM_ROMANI_RANCH_FROM_RANCH_HOUSE"],
+	"exit": ["MM_RANCH_HOUSE"],
+	"region": "Romani Ranch", "subregion": "Ranch House",
+	"x": 171, "y": 397, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Ranch Barn → Romani Ranch",
+	"entrance": ["MM_ROMANI_RANCH_FROM_STABLES"],
+	"exit": ["MM_STABLES"],
+	"region": "Romani Ranch", "subregion": "Ranch Barn",
+	"x": 658, "y": 394, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Cucco Shack → Romani Ranch",
+	"entrance": ["MM_ROMANI_RANCH_FROM_CUCCO_SHACK"],
+	"exit": ["MM_CUCCO_SHACK"],
+	"region": "Romani Ranch", "subregion": "Cucco Shack",
+	"x": 902, "y": 467, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Doggy Racetrack → Romani Ranch",
+	"entrance": ["MM_ROMANI_RANCH_FROM_DOGGY_RACETRACK"],
+	"exit": ["MM_DOGGY_RACETRACK"],
+	"region": "Romani Ranch", "subregion": "Doggy Racetrack",
+	"x": 904, "y": 393, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Road to Southern Swamp → Termina Field",
+	"entrance": ["MM_TERMINA_FIELD_FROM_ROAD_TO_SWAMP"],
+	"exit": ["MM_SWAMP_ROAD_FROM_FIELD"],
+	"region": "Road to Southern Swamp", "subregion": "Road to Southern Swamp",
+	"x": 795, "y": 578, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Road to Southern Swamp → Southern Swamp",
+	"entrance": ["MM_SWAMP_FROM_ROAD"],
+	"exit": ["MM_SWAMP_ROAD_FROM_SWAMP"],
+	"region": "Road to Southern Swamp", "subregion": "Road to Southern Swamp",
+	"x": 441, "y": 54, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Road to Southern Swamp → Shooting Gallery",
+	"entrance": ["MM_SWAMP_ARCHERY"],
+	"exit": ["MM_SWAMP_ROAD_FROM_ARCHERY"],
+	"region": "Road to Southern Swamp", "subregion": "Road to Southern Swamp",
+	"x": 60, "y": 325, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Road to Southern Swamp → Open Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_PATH_SWAMP"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_PATH_SWAMP"],
+	"region": "Road to Southern Swamp", "subregion": "Road to Southern Swamp",
+	"x": 630, "y": 223, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Shooting Gallery → Road to Southern Swamp",
+	"entrance": ["MM_SWAMP_ROAD_FROM_ARCHERY"],
+	"exit": ["MM_SWAMP_ARCHERY"],
+	"region": "Road to Southern Swamp", "subregion": "Shooting Gallery",
+	"x": 486, "y": 507, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Open Grotto → Road to Southern Swamp",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_PATH_SWAMP"],
+	"exit": ["MM_GROTTO_GENERIC_PATH_SWAMP"],
+	"region": "Road to Southern Swamp", "subregion": "Open Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Southern Swamp → Road to Southern Swamp",
+	"entrance": ["MM_SWAMP_ROAD_FROM_SWAMP"],
+	"exit": ["MM_SWAMP_FROM_ROAD"],
+	"region": "Southern Swamp", "subregion": "Southern Swamp",
+	"x": 460, "y": 809, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Southern Swamp → Woods of Mystery",
+	"entrance": ["MM_MYSTERY_WOODS"],
+	"exit": ["MM_SWAMP_FROM_MYSTERY_WOODS"],
+	"region": "Southern Swamp", "subregion": "Southern Swamp",
+	"x": 117, "y": 511, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Southern Swamp → Woodfall",
+	"entrance": ["MM_WOODFALL"],
+	"exit": ["MM_SWAMP_FROM_WOODFALL"],
+	"region": "Southern Swamp", "subregion": "Southern Swamp",
+	"x": 826, "y": 400, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Southern Swamp → Deku Palace",
+	"entrance": ["MM_DEKU_PALACE_MAIN_ENTRANCE"],
+	"exit": ["MM_SWAMP_FROM_PALACE_MAIN_ENTRANCE"],
+	"region": "Southern Swamp", "subregion": "Southern Swamp",
+	"x": 998, "y": 423, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Southern Swamp → Deku Palace (Ledge)",
+	"entrance": ["MM_DEKU_PALACE_LEDGE"],
+	"exit": ["MM_SWAMP_FROM_PALACE_LEDGE"],
+	"region": "Southern Swamp", "subregion": "Southern Swamp",
+	"x": 826, "y": 720, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Southern Swamp → Swamp Spider House",
+	"entrance": ["MM_SPIDER_HOUSE_SWAMP"],
+	"exit": ["MM_SWAMP_FROM_SPIDER_HOUSE"],
+	"region": "Southern Swamp", "subregion": "Southern Swamp",
+	"x": 828, "y": 607, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Southern Swamp → Open Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_SWAMP"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_SWAMP"],
+	"region": "Southern Swamp", "subregion": "Southern Swamp",
+	"x": 875, "y": 669, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Southern Swamp → Tourist Information",
+	"entrance": ["MM_TOURIST_INFORMATION"],
+	"exit": ["MM_SWAMP_FROM_TOURIST_INFORMATION"],
+	"region": "Southern Swamp", "subregion": "Southern Swamp",
+	"x": 584, "y": 674, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Southern Swamp → Potion Shop",
+	"entrance": ["MM_POTION_SHOP"],
+	"exit": ["MM_SWAMP_FROM_POTION_SHOP"],
+	"region": "Southern Swamp", "subregion": "Southern Swamp",
+	"x": 204, "y": 432, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Potion Shop → Southern Swamp",
+	"entrance": ["MM_SWAMP_FROM_POTION_SHOP"],
+	"exit": ["MM_POTION_SHOP"],
+	"region": "Southern Swamp", "subregion": "Potion Shop",
+	"x": 477, "y": 527, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Tourist Information → Southern Swamp",
+	"entrance": ["MM_SWAMP_FROM_TOURIST_INFORMATION"],
+	"exit": ["MM_TOURIST_INFORMATION"],
+	"region": "Southern Swamp", "subregion": "Tourist Information",
+	"x": 462, "y": 527, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Open Grotto → Southern Swamp",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_SWAMP"],
+	"exit": ["MM_GROTTO_GENERIC_SWAMP"],
+	"region": "Southern Swamp", "subregion": "Open Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Woods of Mystery → Southern Swamp",
+	"entrance": ["MM_SWAMP_FROM_MYSTERY_WOODS"],
+	"exit": ["MM_MYSTERY_WOODS"],
+	"region": "Woods of Mystery", "subregion": "Woods of Mystery",
+	"x": 464, "y": 588, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Woods of Mystery → Open Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_WOODS"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_WOODS"],
+	"region": "Woods of Mystery", "subregion": "Woods of Mystery",
+	"x": 647, "y": 530, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Open Grotto → Woods of Mystery",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_WOODS"],
+	"exit": ["MM_GROTTO_GENERIC_WOODS"],
+	"region": "Woods of Mystery", "subregion": "Open Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Deku Palace → Southern Swamp",
+	"entrance": ["MM_SWAMP_FROM_PALACE_MAIN_ENTRANCE"],
+	"exit": ["MM_DEKU_PALACE_MAIN_ENTRANCE"],
+	"region": "Deku Palace", "subregion": "Deku Palace",
+	"x": 483, "y": 594, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Deku Palace (Ledge) → Southern Swamp",
+	"entrance": ["MM_SWAMP_FROM_PALACE_LEDGE"],
+	"exit": ["MM_DEKU_PALACE_LEDGE"],
+	"region": "Deku Palace", "subregion": "Deku Palace",
+	"x": 667, "y": 516, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Deku Palace → Deku Shrine",
+	"entrance": ["MM_DEKU_SHRINE"],
+	"exit": ["MM_DEKU_PALACE_EXTERIOR_FROM_SHRINE"],
+	"region": "Deku Palace", "subregion": "Deku Palace",
+	"x": 70, "y": 18, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Deku Palace → Deku King Chamber",
+	"entrance": ["MM_DEKU_PALACE_THRONE"],
+	"exit": ["MM_DEKU_PALACE_EXTERIOR_FROM_THRONE"],
+	"region": "Deku Palace", "subregion": "Deku Palace",
+	"x": 485, "y": 181, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Deku Palace → Deku King Chamber (Cage)",
+	"entrance": ["MM_DEKU_PALACE_THRONE_CAGE"],
+	"exit": ["MM_DEKU_PALACE_EXTERIOR_FROM_THRONE_CAGE"],
+	"region": "Deku Palace", "subregion": "Deku Palace",
+	"x": 406, "y": 75, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Deku Palace → Beans Grotto",
+	"entrance": ["MM_GROTTO_BEAN"],
+	"exit": ["MM_GROTTO_EXIT_BEAN"],
+	"region": "Deku Palace", "subregion": "Deku Palace",
+	"x": 761, "y": 91, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Deku Palace → Beans Grotto (JP-Layout)",
+	"entrance": ["MM_GROTTO_BEAN"],
+	"exit": ["MM_GROTTO_EXIT_BEAN"],
+	"region": "Deku Palace", "subregion": "Deku Palace",
+	"x": 584, "y": 73, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": "res://images/marks_cond/jp_layout.png"},
+	
+	{"game": "MM", "marker_name": "Deku Palace → JP Climb Grotto (Left)",
+	"entrance": ["MM_GROTTO_JP_CLIMB_LEFT"],
+	"exit": ["MM_GROTTO_EXIT_JP_CLIMB_LEFT"],
+	"region": "Deku Palace", "subregion": "Deku Palace",
+	"x": 359, "y": 163, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": "res://images/marks_cond/jp_layout.png"},
+	
+	{"game": "MM", "marker_name": "Deku Palace → JP Climb Grotto (Right)",
+	"entrance": ["MM_GROTTO_JP_CLIMB_RIGHT"],
+	"exit": ["MM_GROTTO_EXIT_JP_CLIMB_RIGHT"],
+	"region": "Deku Palace", "subregion": "Deku Palace",
+	"x": 616, "y": 168, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": "res://images/marks_cond/jp_layout.png"},
+	
+	{"game": "MM", "marker_name": "Deku Palace → JP Line Grotto (Start)",
+	"entrance": ["MM_GROTTO_JP_LINE_START"],
+	"exit": ["MM_GROTTO_EXIT_JP_LINE_START"],
+	"region": "Deku Palace", "subregion": "Deku Palace",
+	"x": 254, "y": 29, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": "res://images/marks_cond/jp_layout.png"},
+	
+	{"game": "MM", "marker_name": "Deku Palace → JP Line Grotto (End)",
+	"entrance": ["MM_GROTTO_JP_LINE_END"],
+	"exit": ["MM_GROTTO_EXIT_JP_LINE_END"],
+	"region": "Deku Palace", "subregion": "Deku Palace",
+	"x": 562, "y": 24, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": "res://images/marks_cond/jp_layout.png"},
+	
+	
+	
+	{"game": "MM", "marker_name": "Deku King Chamber → Deku Palace",
+	"entrance": ["MM_DEKU_PALACE_EXTERIOR_FROM_THRONE"],
+	"exit": ["MM_DEKU_PALACE_THRONE"],
+	"region": "Deku Palace", "subregion": "Deku King Chamber",
+	"x": 506, "y": 572, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Deku King Chamber (Cage) → Deku Palace",
+	"entrance": ["MM_DEKU_PALACE_EXTERIOR_FROM_THRONE_CAGE"],
+	"exit": ["MM_DEKU_PALACE_THRONE_CAGE"],
+	"region": "Deku Palace", "subregion": "Deku King Chamber",
+	"x": 35, "y": 334, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Deku Shrine → Deku Palace",
+	"entrance": ["MM_DEKU_PALACE_EXTERIOR_FROM_SHRINE"],
+	"exit": ["MM_DEKU_SHRINE"],
+	"region": "Deku Palace", "subregion": "Deku Shrine",
+	"x": 742, "y": 603, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Beans Grotto → Deku Palace",
+	"entrance": ["MM_GROTTO_EXIT_BEAN"],
+	"exit": ["MM_GROTTO_BEAN"],
+	"region": "Deku Palace", "subregion": "Beans Grotto",
+	"x": 841, "y": 507, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "JP Climb Grotto (Left) → Deku Palace",
+	"entrance": ["MM_GROTTO_EXIT_JP_CLIMB_LEFT"],
+	"exit": ["MM_GROTTO_JP_CLIMB_LEFT"],
+	"region": "Deku Palace", "subregion": "JP Climb Grotto",
+	"x": 192, "y": 694, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/jp_layout.png"},
+	
+	{"game": "MM", "marker_name": "JP Climb Grotto (Right) → Deku Palace",
+	"entrance": ["MM_GROTTO_EXIT_JP_CLIMB_RIGHT"],
+	"exit": ["MM_GROTTO_JP_CLIMB_RIGHT"],
+	"region": "Deku Palace", "subregion": "JP Climb Grotto",
+	"x": 204, "y": 269, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/jp_layout.png"},
+	
+	
+	
+	{"game": "MM", "marker_name": "JP Line Grotto (Start) → Deku Palace",
+	"entrance": ["MM_GROTTO_EXIT_JP_LINE_START"],
+	"exit": ["MM_GROTTO_JP_LINE_START"],
+	"region": "Deku Palace", "subregion": "JP Line Grotto",
+	"x": 152, "y": 577, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/jp_layout.png"},
+	
+	{"game": "MM", "marker_name": "JP Line Grotto (End) → Deku Palace",
+	"entrance": ["MM_GROTTO_EXIT_JP_LINE_END"],
+	"exit": ["MM_GROTTO_JP_LINE_END"],
+	"region": "Deku Palace", "subregion": "JP Line Grotto",
+	"x": 155, "y": 202, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": "res://images/marks_cond/jp_layout.png"},
+	
+	
+	
+	{"game": "MM", "marker_name": "Woodfall → Southern Swamp",
+	"entrance": ["MM_SWAMP_FROM_WOODFALL"],
+	"exit": ["MM_WOODFALL"],
+	"region": "Woodfall", "subregion": "Woodfall",
+	"x": 479, "y": 505, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Woodfall → Woodfall Temple",
+	"entrance": ["MM_TEMPLE_WOODFALL"],
+	"exit": ["MM_WOODFALL_FROM_TEMPLE"],
+	"region": "Woodfall", "subregion": "Woodfall",
+	"x": 472, "y": 253, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Woodfall → Fairy Fountain",
+	"entrance": ["MM_FAIRY_FOUNTAIN_WOODFALL"],
+	"exit": ["MM_WOODFALL_FROM_FAIRY_FOUNTAIN"],
+	"region": "Woodfall", "subregion": "Woodfall",
+	"x": 337, "y": 86, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Fairy Fountain → Woodfall",
+	"entrance": ["MM_WOODFALL_FROM_FAIRY_FOUNTAIN"],
+	"exit": ["MM_FAIRY_FOUNTAIN_WOODFALL"],
+	"region": "Woodfall", "subregion": "Fairy Fountain",
+	"x": 466, "y": 565, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Path to Mountain Village → Termina Field",
+	"entrance": ["MM_TERMINA_FIELD_FROM_PATH_TO_MOUNTAIN_VILLAGE"],
+	"exit": ["MM_MOUNTAIN_VILLAGE_PATH_FROM_TERMINA_FIELD"],
+	"region": "Path to Mountain Village", "subregion": "Path to Mountain Village",
+	"x": 876, "y": 305, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Path to Mountain Village → Mountain Village",
+	"entrance": ["MM_MOUNTAIN_VILLAGE_FROM_PATH"],
+	"exit": ["MM_PATH_FROM_MOUNTAIN_VILLAGE"],
+	"region": "Path to Mountain Village", "subregion": "Path to Mountain Village",
+	"x": 86, "y": 312, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Mountain Village → Path to Mountain Village",
+	"entrance": ["MM_PATH_FROM_MOUNTAIN_VILLAGE"],
+	"exit": ["MM_MOUNTAIN_VILLAGE_FROM_PATH"],
+	"region": "Mountain Village", "subregion": "Mountain Village",
+	"x": 439, "y": 596, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Mountain Village → Twin Islands",
+	"entrance": ["MM_TWIN_ISLANDS_FROM_MOUNTAIN_VILLAGE"],
+	"exit": ["MM_MOUNTAIN_VILLAGE_FROM_TWIN_ISLANDS"],
+	"region": "Mountain Village", "subregion": "Mountain Village",
+	"x": 864, "y": 414, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Mountain Village → Path to Snowhead",
+	"entrance": ["MM_SNOWHEAD_PATH_FROM_MOUNTAIN_VILLAGE"],
+	"exit": ["MM_MOUNTAIN_VILLAGE_FROM_SNOWHEAD_PATH"],
+	"region": "Mountain Village", "subregion": "Mountain Village",
+	"x": 286, "y": 244, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Mountain Village → Blacksmith",
+	"entrance": ["MM_BLACKSMITH"],
+	"exit": ["MM_MOUNTAIN_VILLAGE_FROM_BLACKSMITH"],
+	"region": "Mountain Village", "subregion": "Mountain Village",
+	"x": 496, "y": 410, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Mountain Village → Goron Graveyard",
+	"entrance": ["MM_GORON_GRAVEYARD"],
+	"exit": ["MM_MOUNTAIN_VILLAGE_FROM_GORON_GRAVEYARD"],
+	"region": "Mountain Village", "subregion": "Mountain Village",
+	"x": 516, "y": 27, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Mountain Village → Generic Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_MOUNTAIN_VILLAGE"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_MOUNTAIN_VILLAGE"],
+	"region": "Mountain Village", "subregion": "Mountain Village",
+	"x": 751, "y": 165, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": "res://images/marks_cond/cleared.png"},
+	
+	
+	
+	{"game": "MM", "marker_name": "Blacksmith → Mountain Village",
+	"entrance": ["MM_MOUNTAIN_VILLAGE_FROM_BLACKSMITH"],
+	"exit": ["MM_BLACKSMITH"],
+	"region": "Mountain Village", "subregion": "Blacksmith",
+	"x": 723, "y": 336, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Goron Graveyard → Mountain Village",
+	"entrance": ["MM_MOUNTAIN_VILLAGE_FROM_GORON_GRAVEYARD"],
+	"exit": ["MM_GORON_GRAVEYARD"],
+	"region": "Mountain Village", "subregion": "Goron Graveyard",
+	"x": 493, "y": 587, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Generic Grotto → Mountain Village",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_MOUNTAIN_VILLAGE"],
+	"exit": ["MM_GROTTO_GENERIC_MOUNTAIN_VILLAGE"],
+	"region": "Mountain Village", "subregion": "Generic Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Twin Islands → Mountain Village",
+	"entrance": ["MM_MOUNTAIN_VILLAGE_FROM_TWIN_ISLANDS"],
+	"exit": ["MM_TWIN_ISLANDS_FROM_MOUNTAIN_VILLAGE"],
+	"region": "Twin Islands", "subregion": "Twin Islands",
+	"x": 76, "y": 488, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Twin Islands → Goron Village",
+	"entrance": ["MM_GORON_VILLAGE_FROM_TWIN_ISLANDS"],
+	"exit": ["MM_TWIN_ISLANDS_FROM_GORON_VILLAGE"],
+	"region": "Twin Islands", "subregion": "Twin Islands",
+	"x": 832, "y": 452, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Twin Islands → Goron Racetrack",
+	"entrance": ["MM_GORON_RACETRACK"],
+	"exit": ["MM_TWIN_ISLANDS_FROM_GORON_RACETRACK"],
+	"region": "Twin Islands", "subregion": "Twin Islands",
+	"x": 409, "y": 56, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Twin Islands → Frozen Grotto",
+	"entrance": ["MM_GROTTO_HOT_WATER"],
+	"exit": ["MM_GROTTO_EXIT_HOT_WATER"],
+	"region": "Twin Islands", "subregion": "Twin Islands",
+	"x": 654, "y": 359, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Twin Islands → Generic Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_TWIN_ISLANDS"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_TWIN_ISLANDS"],
+	"region": "Twin Islands", "subregion": "Twin Islands",
+	"x": 238, "y": 272, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Goron Racetrack → Twin Islands",
+	"entrance": ["MM_TWIN_ISLANDS_FROM_GORON_RACETRACK"],
+	"exit": ["MM_GORON_RACETRACK"],
+	"region": "Twin Islands", "subregion": "Goron Racetrack",
+	"x": 594, "y": 559, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Frozen Grotto → Twin Islands",
+	"entrance": ["MM_GROTTO_EXIT_HOT_WATER"],
+	"exit": ["MM_GROTTO_HOT_WATER"],
+	"region": "Twin Islands", "subregion": "Frozen Grotto",
+	"x": 710, "y": 505, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Generic Grotto → Twin Islands",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_TWIN_ISLANDS"],
+	"exit": ["MM_GROTTO_GENERIC_TWIN_ISLANDS"],
+	"region": "Twin Islands", "subregion": "Generic Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Goron Village → Twin Islands",
+	"entrance": ["MM_TWIN_ISLANDS_FROM_GORON_VILLAGE"],
+	"exit": ["MM_GORON_VILLAGE_FROM_TWIN_ISLANDS"],
+	"region": "Goron Village", "subregion": "Goron Village",
+	"x": 648, "y": 575, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Goron Village → Lone Peak Shrine",
+	"entrance": ["MM_LONE_PEAK_SHRINE"],
+	"exit": ["MM_GORON_VILLAGE_FROM_LONE_PEAK_SHRINE"],
+	"region": "Goron Village", "subregion": "Goron Village",
+	"x": 545, "y": 27, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Goron Village → Goron Shrine",
+	"entrance": ["MM_GORON_SHRINE"],
+	"exit": ["MM_GORON_VILLAGE_FROM_GORON_SHRINE"],
+	"region": "Goron Village", "subregion": "Goron Village",
+	"x": 597, "y": 440, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Goron Shrine → Goron Village",
+	"entrance": ["MM_GORON_VILLAGE_FROM_GORON_SHRINE"],
+	"exit": ["MM_GORON_SHRINE"],
+	"region": "Goron Village", "subregion": "Goron Shrine",
+	"x": 164, "y": 515, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Goron Shrine → Shop",
+	"entrance": ["MM_GORON_SHOP"],
+	"exit": ["MM_GORON_SHRINE_FROM_SHOP"],
+	"region": "Goron Village", "subregion": "Goron Shrine",
+	"x": 261, "y": 220, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Shop → Goron Shrine",
+	"entrance": ["MM_GORON_SHRINE_FROM_SHOP"],
+	"exit": ["MM_GORON_SHOP"],
+	"region": "Goron Village", "subregion": "Shop",
+	"x": 452, "y": 556, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Lone Peak Shrine → Goron Village",
+	"entrance": ["MM_GORON_VILLAGE_FROM_LONE_PEAK_SHRINE"],
+	"exit": ["MM_LONE_PEAK_SHRINE"],
+	"region": "Goron Village", "subregion": "Lone Peak Shrine",
+	"x": 518, "y": 585, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Path to Snowhead → Mountain Village",
+	"entrance": ["MM_MOUNTAIN_VILLAGE_FROM_SNOWHEAD_PATH"],
+	"exit": ["MM_SNOWHEAD_PATH_FROM_MOUNTAIN_VILLAGE"],
+	"region": "Path to Snowhead", "subregion": "Path to Snowhead",
+	"x": 48, "y": 163, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Path to Snowhead → Snowhead",
+	"entrance": ["MM_SNOWHEAD_FROM_SNOWHEAD_PATH"],
+	"exit": ["MM_PATH_SNOWHEAD_FROM_SNOWHEAD"],
+	"region": "Path to Snowhead", "subregion": "Path to Snowhead",
+	"x": 914, "y": 81, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Path to Snowhead → Generic Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_PATH_SNOWHEAD"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_PATH_SNOWHEAD"],
+	"region": "Path to Snowhead", "subregion": "Path to Snowhead",
+	"x": 695, "y": 197, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Generic Grotto → Path to Snowhead",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_PATH_SNOWHEAD"],
+	"exit": ["MM_GROTTO_GENERIC_PATH_SNOWHEAD"],
+	"region": "Path to Snowhead", "subregion": "Generic Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Snowhead → Path to Snowhead",
+	"entrance": ["MM_PATH_SNOWHEAD_FROM_SNOWHEAD"],
+	"exit": ["MM_SNOWHEAD_FROM_SNOWHEAD_PATH"],
+	"region": "Snowhead", "subregion": "Snowhead",
+	"x": 118, "y": 522, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Snowhead → Snowhead Temple",
+	"entrance": ["MM_TEMPLE_SNOWHEAD"],
+	"exit": ["MM_SNOWHEAD_FROM_TEMPLE"],
+	"region": "Snowhead", "subregion": "Snowhead",
+	"x": 674, "y": 258, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Snowhead → Fairy Fountain",
+	"entrance": ["MM_FAIRY_FOUNTAIN_SNOWHEAD"],
+	"exit": ["MM_SNOWHEAD_FROM_FAIRY_FOUNTAIN"],
+	"region": "Snowhead", "subregion": "Snowhead",
+	"x": 726, "y": 343, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Fairy Fountain → Snowhead",
+	"entrance": ["MM_SNOWHEAD_FROM_FAIRY_FOUNTAIN"],
+	"exit": ["MM_FAIRY_FOUNTAIN_SNOWHEAD"],
+	"region": "Snowhead", "subregion": "Fairy Fountain",
+	"x": 469, "y": 573, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Great Bay Coast → Termina Field",
+	"entrance": ["MM_TERMINA_FIELD_FROM_GREAT_BAY_COAST"],
+	"exit": ["MM_GREAT_BAY_COAST_FROM_FIELD"],
+	"region": "Great Bay Coast", "subregion": "Great Bay Coast",
+	"x": 827, "y": 487, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Great Bay Coast → Zora Cape",
+	"entrance": ["MM_ZORA_CAPE_FROM_GREAT_BAY_COAST"],
+	"exit": ["MM_GREAT_BAY_COAST_FROM_ZORA_CAPE"],
+	"region": "Great Bay Coast", "subregion": "Great Bay Coast",
+	"x": 574, "y": 605, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Great Bay Coast → Pinnacle Rock",
+	"entrance": ["MM_PINNACLE_ROCK"],
+	"exit": ["MM_GREAT_BAY_FROM_PINNACLE_ROCK"],
+	"region": "Great Bay Coast", "subregion": "Great Bay Coast",
+	"x": 195, "y": 197, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Great Bay Coast (Void, Near Pinnacle Rock) → Great Bay Coast",
+	"entrance": ["MM_VOID_GREAT_BAY_BY_PINNACLE_ROCK"],
+	"exit": [""],
+	"region": "Great Bay Coast", "subregion": "Great Bay Coast",
+	"x": 232, "y": 91, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Great Bay Coast (Void, Near Beach) → Great Bay Coast",
+	"entrance": ["MM_VOID_GREAT_BAY"],
+	"exit": [""],
+	"region": "Great Bay Coast", "subregion": "Great Bay Coast",
+	"x": 168, "y": 353, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Great Bay Coast → Pirate's Fortress (Entrance)",
+	"entrance": ["MM_PIRATE_FORTRESS"],
+	"exit": ["MM_GREAT_BAY_FROM_PIRATE_FORTRESS"],
+	"region": "Great Bay Coast", "subregion": "Great Bay Coast",
+	"x": 551, "y": 84, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Great Bay Coast → Oceam Spider House",
+	"entrance": ["MM_SPIDER_HOUSE_OCEAN"],
+	"exit": ["MM_GREAT_BAY_FROM_SPIDER_HOUSE"],
+	"region": "Great Bay Coast", "subregion": "Great Bay Coast",
+	"x": 708, "y": 520, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Great Bay Coast → Laboratory",
+	"entrance": ["MM_LABORATORY"],
+	"exit": ["MM_GREAT_BAY_COAST_FROM_LABORATORY"],
+	"region": "Great Bay Coast", "subregion": "Great Bay Coast",
+	"x": 296, "y": 494, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Great Bay Coast → Fisherman's Hut",
+	"entrance": ["MM_FISHER_HUT"],
+	"exit": ["MM_GREAT_BAY_COAST_FROM_FISHER_HUT"],
+	"region": "Great Bay Coast", "subregion": "Great Bay Coast",
+	"x": 684, "y": 562, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Great Bay Coast → Open Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_GREAT_BAY_COAST"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_GREAT_BAY_COAST"],
+	"region": "Great Bay Coast", "subregion": "Great Bay Coast",
+	"x": 698, "y": 601, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Great Bay Coast → Cow Grotto",
+	"entrance": ["MM_GROTTO_COW_COAST"],
+	"exit": ["MM_GROTTO_EXIT_COW_COAST"],
+	"region": "Great Bay Coast", "subregion": "Great Bay Coast",
+	"x": 723, "y": 198, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Laboratory → Great Bay Coast",
+	"entrance": ["MM_GREAT_BAY_COAST_FROM_LABORATORY"],
+	"exit": ["MM_LABORATORY"],
+	"region": "Great Bay Coast", "subregion": "Laboratory",
+	"x": 761, "y": 321, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Fisherman's Hut → Great Bay Coast",
+	"entrance": ["MM_GREAT_BAY_COAST_FROM_FISHER_HUT"],
+	"exit": ["MM_FISHER_HUT"],
+	"region": "Great Bay Coast", "subregion": "Fisherman's Hut",
+	"x": 202, "y": 352, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Cow Grotto → Great Bay Coast",
+	"entrance": ["MM_GROTTO_EXIT_COW_COAST"],
+	"exit": ["MM_GROTTO_COW_COAST"],
+	"region": "Great Bay Coast", "subregion": "Cow Grotto",
+	"x": 242, "y": 481, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Open Grotto → Great Bay Coast",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_GREAT_BAY_COAST"],
+	"exit": ["MM_GROTTO_GENERIC_GREAT_BAY_COAST"],
+	"region": "Great Bay Coast", "subregion": "Open Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Pinnacle Rock → Great Bay Coast",
+	"entrance": ["MM_GREAT_BAY_FROM_PINNACLE_ROCK"],
+	"exit": ["MM_PINNACLE_ROCK"],
+	"region": "Pinnacle Rock", "subregion": "Pinnacle Rock",
+	"x": 287, "y": 22, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Pinnacle Rock (Void) → Pinnacle Rock",
+	"entrance": ["MM_VOID_PINNACLE_ROCK"],
+	"exit": [""],
+	"region": "Pinnacle Rock", "subregion": "Pinnacle Rock",
+	"x": 498, "y": 22, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Zora Cape → Great Bay Coast",
+	"entrance": ["MM_GREAT_BAY_COAST_FROM_ZORA_CAPE"],
+	"exit": ["MM_ZORA_CAPE_FROM_GREAT_BAY_COAST"],
+	"region": "Zora Cape", "subregion": "Zora Cape",
+	"x": 458, "y": 145, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Cape (Void) → Zora Cape",
+	"entrance": ["MM_VOID_ZORA_CAPE"],
+	"exit": [""],
+	"region": "Zora Cape", "subregion": "Zora Cape",
+	"x": 82, "y": 167, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Cape → Zora Hall",
+	"entrance": ["MM_ZORA_HALL_UNDERWATER"],
+	"exit": ["MM_ZORA_CAPE_FROM_HALL_WATER"],
+	"region": "Zora Cape", "subregion": "Zora Cape",
+	"x": 189, "y": 290, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Cape → Zora Hall (Back)",
+	"entrance": ["MM_ZORA_HALL_LEDGE"],
+	"exit": ["MM_ZORA_CAPE_PENINSULA"],
+	"region": "Zora Cape", "subregion": "Zora Cape",
+	"x": 80, "y": 313, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Cape → Great Bay Temple",
+	"entrance": ["MM_TEMPLE_GREAT_BAY"],
+	"exit": ["MM_GREAT_BAY_FROM_TEMPLE"],
+	"region": "Zora Cape", "subregion": "Zora Cape",
+	"x": 24, "y": 334, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Cape → Waterfall Rapids",
+	"entrance": ["MM_BEAVERS"],
+	"exit": ["MM_ZORA_CAPE_FROM_BEAVERS"],
+	"region": "Zora Cape", "subregion": "Zora Cape",
+	"x": 868, "y": 448, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Cape → Generic Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_ZORA_CAPE"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_ZORA_CAPE"],
+	"region": "Zora Cape", "subregion": "Zora Cape",
+	"x": 455, "y": 354, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Cape → Fairy Fountain",
+	"entrance": ["MM_FAIRY_FOUNTAIN_GREAT_BAY"],
+	"exit": ["MM_GREAT_BAY_FROM_FAIRY_FOUNTAIN"],
+	"region": "Zora Cape", "subregion": "Zora Cape",
+	"x": 391, "y": 491, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Waterfall Rapids → Zora Cape",
+	"entrance": ["MM_ZORA_CAPE_FROM_BEAVERS"],
+	"exit": ["MM_BEAVERS"],
+	"region": "Zora Cape", "subregion": "Waterfall Rapids",
+	"x": 260, "y": 519, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Generic Grotto → Zora Cape",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_ZORA_CAPE"],
+	"exit": ["MM_GROTTO_GENERIC_ZORA_CAPE"],
+	"region": "Zora Cape", "subregion": "Generic Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Fairy Fountain → Zora Cape",
+	"entrance": ["MM_GREAT_BAY_FROM_FAIRY_FOUNTAIN"],
+	"exit": ["MM_FAIRY_FOUNTAIN_GREAT_BAY"],
+	"region": "Zora Cape", "subregion": "Fairy Fountain",
+	"x": 496, "y": 576, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Zora Hall → Zora Cape",
+	"entrance": ["MM_ZORA_CAPE_FROM_HALL_WATER"],
+	"exit": ["MM_ZORA_HALL_UNDERWATER"],
+	"region": "Zora Hall", "subregion": "Zora Hall",
+	"x": 68, "y": 559, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Hall (Back) → Zora Cape",
+	"entrance": ["MM_ZORA_CAPE_PENINSULA"],
+	"exit": ["MM_ZORA_HALL_LEDGE"],
+	"region": "Zora Hall", "subregion": "Zora Hall",
+	"x": 788, "y": 391, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Hall → Shop",
+	"entrance": ["MM_ZORA_SHOP"],
+	"exit": ["MM_ZORA_HALL_FROM_SHOP"],
+	"region": "Zora Hall", "subregion": "Zora Hall",
+	"x": 693, "y": 451, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Hall → Tijo's Room",
+	"entrance": ["MM_ROOM_TIJO"],
+	"exit": ["MM_ZORA_HALL_FROM_TIJO"],
+	"region": "Zora Hall", "subregion": "Zora Hall",
+	"x": 689, "y": 214, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Hall → Japas' Room",
+	"entrance": ["MM_ROOM_JAPAS"],
+	"exit": ["MM_ZORA_HALL_FROM_JAPAS"],
+	"region": "Zora Hall", "subregion": "Zora Hall",
+	"x": 638, "y": 124, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Hall → Evan's Room",
+	"entrance": ["MM_ROOM_EVANS"],
+	"exit": ["MM_ZORA_HALL_FROM_EVANS"],
+	"region": "Zora Hall", "subregion": "Zora Hall",
+	"x": 499, "y": 74, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Zora Hall → Lulu's Room",
+	"entrance": ["MM_ROOM_LULU"],
+	"exit": ["MM_ZORA_HALL_FROM_LULU"],
+	"region": "Zora Hall", "subregion": "Zora Hall",
+	"x": 412, "y": 109, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Shop → Zora Hall",
+	"entrance": ["MM_ZORA_HALL_FROM_SHOP"],
+	"exit": ["MM_ZORA_SHOP"],
+	"region": "Zora Hall", "subregion": "Shop",
+	"x": 444, "y": 47, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Tijo's Room → Zora Hall",
+	"entrance": ["MM_ZORA_HALL_FROM_TIJO"],
+	"exit": ["MM_ROOM_TIJO"],
+	"region": "Zora Hall", "subregion": "Tijo's Room",
+	"x": 474, "y": 590, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Japas' Room → Zora Hall",
+	"entrance": ["MM_ZORA_HALL_FROM_JAPAS"],
+	"exit": ["MM_ROOM_JAPAS"],
+	"region": "Zora Hall", "subregion": "Japas' Room",
+	"x": 730, "y": 588, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Evan's Room → Zora Hall",
+	"entrance": ["MM_ZORA_HALL_FROM_EVANS"],
+	"exit": ["MM_ROOM_EVANS"],
+	"region": "Zora Hall", "subregion": "Evan's Room",
+	"x": 469, "y": 60, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Lulu's Room → Zora Hall",
+	"entrance": ["MM_ZORA_HALL_FROM_LULU"],
+	"exit": ["MM_ROOM_LULU"],
+	"region": "Zora Hall", "subregion": "Lulu's Room",
+	"x": 243, "y": 172, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Road to Ikana → Termina Field",
+	"entrance": ["MM_TERMINA_FIELD_FROM_ROAD_TO_IKANA"],
+	"exit": ["MM_IKANA_ROAD_FROM_FIELD"],
+	"region": "Road to Ikana", "subregion": "Road to Ikana",
+	"x": 869, "y": 303, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Road to Ikana → Ikana Canyon",
+	"entrance": ["MM_IKANA_VALLEY_FROM_ROAD"],
+	"exit": ["MM_IKANA_ROAD_FROM_VALLEY"],
+	"region": "Road to Ikana", "subregion": "Road to Ikana",
+	"x": 34, "y": 281, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Road to Ikana → Ikana Graveyard",
+	"entrance": ["MM_IKANA_GRAVEYARD"],
+	"exit": ["MM_IKANA_ROAD_FROM_IKANA_GRAVEYARD"],
+	"region": "Road to Ikana", "subregion": "Road to Ikana",
+	"x": 294, "y": 458, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Road to Ikana → Generic Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_PATH_IKANA"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_PATH_IKANA"],
+	"region": "Road to Ikana", "subregion": "Road to Ikana",
+	"x": 474, "y": 260, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Generic Grotto → Road to Ikana",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_PATH_IKANA"],
+	"exit": ["MM_GROTTO_GENERIC_PATH_IKANA"],
+	"region": "Road to Ikana", "subregion": "Generic Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Ikana Graveyard → Road to Ikana",
+	"entrance": ["MM_IKANA_ROAD_FROM_IKANA_GRAVEYARD"],
+	"exit": ["MM_IKANA_GRAVEYARD"],
+	"region": "Ikana Graveyard", "subregion": "Ikana Graveyard",
+	"x": 76, "y": 334, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Graveyard → Generic Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_GRAVEYARD"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_GRAVEYARD"],
+	"region": "Ikana Graveyard", "subregion": "Ikana Graveyard",
+	"x": 532, "y": 308, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Graveyard → Beneath the Graveyard (Night 1)",
+	"entrance": ["MM_GRAVE_NIGHT1"],
+	"exit": ["MM_GRAVE_EXIT_NIGHT1"],
+	"region": "Ikana Graveyard", "subregion": "Ikana Graveyard",
+	"x": 222, "y": 361, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Graveyard → Beneath the Graveyard (Night 2)",
+	"entrance": ["MM_GRAVE_NIGHT2"],
+	"exit": ["MM_GRAVE_EXIT_NIGHT2"],
+	"region": "Ikana Graveyard", "subregion": "Ikana Graveyard",
+	"x": 290, "y": 352, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Graveyard → Dampe's House (Night 3)",
+	"entrance": ["MM_GRAVE_NIGHT3"],
+	"exit": [""],
+	"region": "Ikana Graveyard", "subregion": "Ikana Graveyard",
+	"x": 268, "y": 264, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Beneath the Graveyard (Night 1) → Ikana Graveyard",
+	"entrance": ["MM_GRAVE_EXIT_NIGHT1"],
+	"exit": ["MM_GRAVE_NIGHT1"],
+	"region": "Ikana Graveyard", "subregion": "Beneath the Graveyard",
+	"x": 331, "y": 479, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Beneath the Graveyard (Night 2) → Ikana Graveyard",
+	"entrance": ["MM_GRAVE_EXIT_NIGHT2"],
+	"exit": ["MM_GRAVE_NIGHT2"],
+	"region": "Ikana Graveyard", "subregion": "Beneath the Graveyard",
+	"x": 352, "y": 381, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Generic Grotto → Ikana Graveyard",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_GRAVEYARD"],
+	"exit": ["MM_GROTTO_GENERIC_GRAVEYARD"],
+	"region": "Ikana Graveyard", "subregion": "Generic Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Ikana Canyon → Road to Ikana",
+	"entrance": ["MM_IKANA_ROAD_FROM_VALLEY"],
+	"exit": ["MM_IKANA_VALLEY_FROM_ROAD"],
+	"region": "Ikana Canyon", "subregion": "Ikana Canyon",
+	"x": 685, "y": 593, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Canyon → Southern Swamp",
+	"entrance": ["MM_SWAMP_FROM_IKANA_CANYON"],
+	"exit": [""],
+	"region": "Ikana Canyon", "subregion": "Ikana Canyon",
+	"x": 865, "y": 313, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Canyon → Stone Tower",
+	"entrance": ["MM_STONE_TOWER"],
+	"exit": ["MM_IKANA_CANYON_FROM_STONE_TOWER"],
+	"region": "Ikana Canyon", "subregion": "Ikana Canyon",
+	"x": 291, "y": 64, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Canyon → Secret Shrine",
+	"entrance": ["MM_SECRET_SHRINE"],
+	"exit": ["MM_IKANA_VALLEY_FROM_SHRINE"],
+	"region": "Ikana Canyon", "subregion": "Ikana Canyon",
+	"x": 371, "y": 588, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Canyon → Beneath the Well",
+	"entrance": ["MM_BENEATH_THE_WELL"],
+	"exit": ["MM_IKANA_CANYON_FROM_WELL"],
+	"region": "Ikana Canyon", "subregion": "Ikana Canyon",
+	"x": 212, "y": 490, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Canyon → Ancient Castle of Ikana (Exterior)",
+	"entrance": ["MM_IKANA_CASTLE_GARDENS"],
+	"exit": ["MM_IKANA_CANYON_FROM_CASTLE_GARDENS"],
+	"region": "Ikana Canyon", "subregion": "Ikana Canyon",
+	"x": 426, "y": 254, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Canyon → Ghost Hut",
+	"entrance": ["MM_GHOST_HUT"],
+	"exit": ["MM_IKANA_CANYON_FROM_GHOST_HUT"],
+	"region": "Ikana Canyon", "subregion": "Ikana Canyon",
+	"x": 118, "y": 287, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Canyon → Music Box House",
+	"entrance": ["MM_MUSIC_BOX_HOUSE"],
+	"exit": ["MM_IKANA_CANYON_FROM_MUSIC_BOX_HOUSE"],
+	"region": "Ikana Canyon", "subregion": "Ikana Canyon",
+	"x": 268, "y": 290, "size": 32,
+	"image": "res://images/marks/entrances/interior.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Canyon → Spring Water Cave",
+	"entrance": ["MM_IKANA_CAVERN"],
+	"exit": ["MM_IKANA_CANYON_FROM_CAVERN"],
+	"region": "Ikana Canyon", "subregion": "Ikana Canyon",
+	"x": 117, "y": 168, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Canyon → Open Grotto",
+	"entrance": ["MM_GROTTO_GENERIC_VALLEY"],
+	"exit": ["MM_GROTTO_EXIT_GENERIC_VALLEY"],
+	"region": "Ikana Canyon", "subregion": "Ikana Canyon",
+	"x": 352, "y": 555, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Canyon → Sakon's Hideout",
+	"entrance": ["MM_SAKON_HIDEOUT"],
+	"exit": ["MM_IKANA_CANYON_FROM_SAKON_HIDEOUT"],
+	"region": "Ikana Canyon", "subregion": "Ikana Canyon",
+	"x": 825, "y": 340, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ikana Canyon → Fairy Fountain",
+	"entrance": ["MM_FAIRY_FOUNTAIN_IKANA"],
+	"exit": ["MM_IKANA_CANYON_FROM_FAIRY_FOUNTAIN"],
+	"region": "Ikana Canyon", "subregion": "Ikana Canyon",
+	"x": 327, "y": 190, "size": 32,
+	"image": "res://images/marks/entrances/grotto.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Ghost Hut → Ikana Canyon",
+	"entrance": ["MM_IKANA_CANYON_FROM_GHOST_HUT"],
+	"exit": ["MM_GHOST_HUT"],
+	"region": "Ikana Canyon", "subregion": "Ghost Hut",
+	"x": 474, "y": 599, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Music Box House → Ikana Canyon",
+	"entrance": ["MM_IKANA_CANYON_FROM_MUSIC_BOX_HOUSE"],
+	"exit": ["MM_MUSIC_BOX_HOUSE"],
+	"region": "Ikana Canyon", "subregion": "Music Box House",
+	"x": 728, "y": 267, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Spring Water Cave → Ikana Canyon",
+	"entrance": ["MM_IKANA_CANYON_FROM_CAVERN"],
+	"exit": ["MM_IKANA_CAVERN"],
+	"region": "Ikana Canyon", "subregion": "Spring Water Cave",
+	"x": 642, "y": 545, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Sakon's Hideout → Ikana Canyon",
+	"entrance": ["MM_IKANA_CANYON_FROM_SAKON_HIDEOUT"],
+	"exit": ["MM_SAKON_HIDEOUT"],
+	"region": "Ikana Canyon", "subregion": "Sakon's Hideout",
+	"x": 139, "y": 335, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Open Grotto → Ikana Canyon",
+	"entrance": ["MM_GROTTO_EXIT_GENERIC_VALLEY"],
+	"exit": ["MM_GROTTO_GENERIC_VALLEY"],
+	"region": "Ikana Canyon", "subregion": "Open Grotto",
+	"x": 641, "y": 504, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Fairy Fountain → Ikana Canyon",
+	"entrance": ["MM_IKANA_CANYON_FROM_FAIRY_FOUNTAIN"],
+	"exit": ["MM_FAIRY_FOUNTAIN_IKANA"],
+	"region": "Ikana Canyon", "subregion": "Fairy Fountain",
+	"x": 453, "y": 553, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Stone Tower → Ikana Canyon",
+	"entrance": ["MM_IKANA_CANYON_FROM_STONE_TOWER"],
+	"exit": ["MM_STONE_TOWER"],
+	"region": "Stone Tower", "subregion": "Stone Tower",
+	"x": 466, "y": 341, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Stone Tower → Stone Tower Temple",
+	"entrance": ["MM_TEMPLE_STONE_TOWER"],
+	"exit": ["MM_STONE_TOWER_FROM_TEMPLE"],
+	"region": "Stone Tower", "subregion": "Stone Tower",
+	"x": 447, "y": 587, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Inverted Stone Tower → Inverted Stone Tower Temple",
+	"entrance": ["MM_TEMPLE_STONE_TOWER_INVERTED"],
+	"exit": ["MM_STONE_TOWER_INVERTED_FROM_TEMPLE"],
+	"region": "Stone Tower", "subregion": "Inverted Stone Tower",
+	"x": 770, "y": 159, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Woodfall Temple → Woodfall",
+	"entrance": ["MM_WOODFALL_FROM_TEMPLE"],
+	"exit": ["MM_TEMPLE_WOODFALL"],
+	"region": "Woodfall Temple", "subregion": "Entrance",
+	"x": 469, "y": 564, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Woodfall Temple → Boss Room (Warp)",
+	"entrance": ["MM_BOSS_TEMPLE_WOODFALL"],
+	"exit": [""],
+	"region": "Woodfall Temple", "subregion": "Entrance",
+	"x": 469, "y": 479, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Woodfall Temple → Boss Room",
+	"entrance": ["MM_BOSS_TEMPLE_WOODFALL"],
+	"exit": [""],
+	"region": "Woodfall Temple", "subregion": "Pre-Boss Room",
+	"x": 471, "y": 602, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Snowhead Temple → Snowhead",
+	"entrance": ["MM_SNOWHEAD_FROM_TEMPLE"],
+	"exit": ["MM_TEMPLE_SNOWHEAD"],
+	"region": "Snowhead Temple", "subregion": "Entrance",
+	"x": 853, "y": 294, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Snowhead Temple → Boss Room (Warp)",
+	"entrance": ["MM_BOSS_TEMPLE_SNOWHEAD"],
+	"exit": [""],
+	"region": "Snowhead Temple", "subregion": "Entrance",
+	"x": 535, "y": 291, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Snowhead Temple → Boss Room",
+	"entrance": ["MM_BOSS_TEMPLE_SNOWHEAD"],
+	"exit": [""],
+	"region": "Snowhead Temple", "subregion": "Central Room",
+	"x": 674, "y": 17, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Great Bay Temple → Zora Cape",
+	"entrance": ["MM_GREAT_BAY_FROM_TEMPLE"],
+	"exit": ["MM_TEMPLE_GREAT_BAY"],
+	"region": "Great Bay Temple", "subregion": "Entrance",
+	"x": 642, "y": 322, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Great Bay Temple → Boss Room (Warp)",
+	"entrance": ["MM_BOSS_TEMPLE_GREAT_BAY"],
+	"exit": [""],
+	"region": "Great Bay Temple", "subregion": "Entrance",
+	"x": 234, "y": 321, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Great Bay Temple → Boss Room",
+	"entrance": ["MM_BOSS_TEMPLE_GREAT_BAY"],
+	"exit": [""],
+	"region": "Great Bay Temple", "subregion": "Pre-Boss Room",
+	"x": 498, "y": 192, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Stone Tower Temple → Stone Tower",
+	"entrance": ["MM_STONE_TOWER_FROM_TEMPLE"],
+	"exit": ["MM_TEMPLE_STONE_TOWER"],
+	"region": "Stone Tower Temple", "subregion": "Entrance",
+	"x": 476, "y": 600, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Inverted Stone Tower Temple → Inverted Stone Tower",
+	"entrance": ["MM_STONE_TOWER_INVERTED_FROM_TEMPLE"],
+	"exit": ["MM_TEMPLE_STONE_TOWER_INVERTED"],
+	"region": "Inverted Stone Tower Temple", "subregion": "Entrance",
+	"x": 482, "y": 588, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Inverted Stone Tower Temple → Boss Room (Warp)",
+	"entrance": ["MM_BOSS_TEMPLE_STONE_TOWER"],
+	"exit": [""],
+	"region": "Inverted Stone Tower Temple", "subregion": "Entrance",
+	"x": 481, "y": 268, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Inverted Stone Tower Temple → Boss Room",
+	"entrance": ["MM_BOSS_TEMPLE_STONE_TOWER"],
+	"exit": [""],
+	"region": "Inverted Stone Tower Temple", "subregion": "Hiploop Bridge Room",
+	"x": 805, "y": 548, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Swamp Spider House → Southern Swamp",
+	"entrance": ["MM_SWAMP_FROM_SPIDER_HOUSE"],
+	"exit": ["MM_SPIDER_HOUSE_SWAMP"],
+	"region": "Swamp Spider House", "subregion": "Lobby",
+	"x": 471, "y": 546, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Pirate's Fortress (Entrance) → Great Bay Coast",
+	"entrance": ["MM_GREAT_BAY_FROM_PIRATE_FORTRESS"],
+	"exit": ["MM_PIRATE_FORTRESS"],
+	"region": "Pirate's Fortress", "subregion": "Entrance",
+	"x": 713, "y": 211, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Pirate's Fortress (Entrance) → Pirate's Fortress (Sewers, Gate)",
+	"entrance": ["MM_SEWERS_FROM_EXTERIOR_GATE"],
+	"exit": ["MM_EXTERIOR_GATE_FROM_SEWERS"],
+	"region": "Pirate's Fortress", "subregion": "Entrance",
+	"x": 476, "y": 302, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Pirate's Fortress (Entrance) → Pirate's Fortress (Sewers, Door)",
+	"entrance": ["MM_SEWERS_FROM_EXTERIOR_DOOR"],
+	"exit": ["MM_EXTERIOR_DOOR_FROM_SEWERS"],
+	"region": "Pirate's Fortress", "subregion": "Entrance",
+	"x": 148, "y": 154, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Pirate's Fortress (Entrance) → Pirate's Fortress (Interior)",
+	"entrance": ["MM_PIRATE_FORTRESS_INTERIOR"],
+	"exit": ["MM_PIRATE_FORTRESS_EXTERIOR_FROM_INTERIOR"],
+	"region": "Pirate's Fortress", "subregion": "Entrance",
+	"x": 45, "y": 99, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Pirate's Fortress (Entrance) → Pirate's Fortress (Interior, Lookout)",
+	"entrance": ["MM_PIRATE_FORTRESS_INTERIOR_FROM_LOOKOUT"],
+	"exit": ["MM_PIRATE_FORTRESS_EXTERIOR_LOOKOUT"],
+	"region": "Pirate's Fortress", "subregion": "Entrance",
+	"x": 445, "y": 207, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Pirate's Fortress (Sewers, Gate) → Pirate's Fortress (Entrance)",
+	"entrance": ["MM_EXTERIOR_GATE_FROM_SEWERS"],
+	"exit": ["MM_SEWERS_FROM_EXTERIOR_GATE"],
+	"region": "Pirate's Fortress", "subregion": "Interior",
+	"x": 1086, "y": 812, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Pirate's Fortress (Sewers, Door) → Pirate's Fortress (Entrance)",
+	"entrance": ["MM_EXTERIOR_DOOR_FROM_SEWERS"],
+	"exit": ["MM_SEWERS_FROM_EXTERIOR_DOOR"],
+	"region": "Pirate's Fortress", "subregion": "Interior",
+	"x": 942, "y": 315, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Pirate's Fortress (Sewers) → Pirate's Fortress (Interior, Telescope)",
+	"entrance": ["MM_PIRATE_FORTRESS_TELESCOPE"],
+	"exit": ["MM_PIRATE_FORTRESS_SEWERS_FROM_TELESCOPE"],
+	"region": "Pirate's Fortress", "subregion": "Interior",
+	"x": 884, "y": 355, "size": 32,
+	"image": "res://images/marks/entrances/telescope.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Pirate's Fortress (Interior) → Pirate's Fortress (Entrance)",
+	"entrance": ["MM_PIRATE_FORTRESS_EXTERIOR_FROM_INTERIOR"],
+	"exit": ["MM_PIRATE_FORTRESS_INTERIOR"],
+	"region": "Pirate's Fortress", "subregion": "Exterior",
+	"x": 228, "y": 445, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Pirate's Fortress (Interior, Lookout) → Pirate's Fortress (Entrance)",
+	"entrance": ["MM_PIRATE_FORTRESS_EXTERIOR_LOOKOUT"],
+	"exit": ["MM_PIRATE_FORTRESS_INTERIOR_FROM_LOOKOUT"],
+	"region": "Pirate's Fortress", "subregion": "Exterior",
+	"x": 677, "y": 582, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Ocean Spider House → Great Bay Coast",
+	"entrance": ["MM_GREAT_BAY_FROM_SPIDER_HOUSE"],
+	"exit": ["MM_SPIDER_HOUSE_OCEAN"],
+	"region": "Ocean Spider House", "subregion": "Lobby",
+	"x": 471, "y": 579, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Beneath the Well → Ikana Canyon",
+	"entrance": ["MM_IKANA_CANYON_FROM_WELL"],
+	"exit": ["MM_BENEATH_THE_WELL"],
+	"region": "Beneath the Well", "subregion": "Beneath the Well",
+	"x": 617, "y": 1027, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Beneath the Well → Ancient Castle of Ikana (Exterior)",
+	"entrance": ["MM_IKANA_CASTLE_EXTERIOR_FROM_WELL"],
+	"exit": ["MM_BENEATH_THE_WELL_BACK"],
+	"region": "Beneath the Well", "subregion": "Beneath the Well",
+	"x": 1090, "y": 247, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Ancient Castle of Ikana (Exterior) → Ikana Canyon",
+	"entrance": ["MM_IKANA_CANYON_FROM_CASTLE_GARDENS"],
+	"exit": ["MM_IKANA_CASTLE_GARDENS"],
+	"region": "Ancient Castle of Ikana", "subregion": "Exterior",
+	"x": 332, "y": 576, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ancient Castle of Ikana (Exterior) → Beneath the Well",
+	"entrance": ["MM_BENEATH_THE_WELL_BACK"],
+	"exit": ["MM_IKANA_CASTLE_EXTERIOR_FROM_WELL"],
+	"region": "Ancient Castle of Ikana", "subregion": "Exterior",
+	"x": 255, "y": 117, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ancient Castle of Ikana (Exterior) → Ancient Castle of Ikana (Interior)",
+	"entrance": ["MM_IKANA_CASTLE"],
+	"exit": ["MM_IKANA_CASTLE_EXTERIOR_FROM_CASTLE"],
+	"region": "Ancient Castle of Ikana", "subregion": "Exterior",
+	"x": 476, "y": 426, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ancient Castle of Ikana (Exterior) → Ancient Castle of Ikana (Interior, Keg)",
+	"entrance": ["MM_IKANA_CASTLE_INTERIOR_KEG"],
+	"exit": [""],
+	"region": "Ancient Castle of Ikana", "subregion": "Exterior",
+	"x": 484, "y": 200, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	{"game": "MM", "marker_name": "Ancient Castle of Ikana (Exterior) → Ancient Castle of Ikana (Interior, Block)",
+	"entrance": ["MM_IKANA_CASTLE_INTERIOR_BLOCK"],
+	"exit": [""],
+	"region": "Ancient Castle of Ikana", "subregion": "Exterior",
+	"x": 603, "y": 167, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Ancient Castle of Ikana (Interior) → Ancient Castle of Ikana (Exterior)",
+	"entrance": ["MM_IKANA_CASTLE_EXTERIOR_FROM_CASTLE"],
+	"exit": ["MM_IKANA_CASTLE"],
+	"region": "Ancient Castle of Ikana", "subregion": "Interior",
+	"x": 476, "y": 605, "size": 32,
+	"image": "res://images/marks/entrances/dungeon.png", "overlay_image": ""},
+	
+	
+	
+	{"game": "MM", "marker_name": "Secret Shrine → Ikana Canyon",
+	"entrance": ["MM_IKANA_VALLEY_FROM_SHRINE"],
+	"exit": ["MM_SECRET_SHRINE"],
+	"region": "Secret Shrine", "subregion": "Secret Shrine",
+	"x": 472, "y": 589, "size": 32,
+	"image": "res://images/marks/entrances/overworld.png", "overlay_image": ""}
+]

@@ -1,0 +1,209 @@
+[gd_scene format=3 uid="uid://bitems002"]
+
+[ext_resource type="Script" uid="uid://bqgdm37sga4d2" path="res://scripts/item_tracker.gd" id="1_items"]
+[ext_resource type="Texture2D" uid="uid://dogryb2wacxc2" path="res://images/item_tracker/panels/collectibles.png" id="2_collectibles"]
+[ext_resource type="Texture2D" uid="uid://gca64bd6ybsx" path="res://images/item_tracker/panels/equipment.png" id="3_equipment"]
+[ext_resource type="Texture2D" uid="uid://bxh8ti6367ct6" path="res://images/item_tracker/panels/items.png" id="4_items"]
+[ext_resource type="Texture2D" uid="uid://bks22hukwskk8" path="res://images/item_tracker/panels/masks.png" id="5_masks"]
+[ext_resource type="Texture2D" uid="uid://cwi2pu5aifgfr" path="res://images/item_tracker/panels/songs.png" id="6_songs"]
+[ext_resource type="Texture2D" uid="uid://3umrpw1i2hju" path="res://images/item_tracker/panels/rusty_keys.png" id="7_rusty_keys"]
+[ext_resource type="Texture2D" uid="uid://beb4yq8q7jocr" path="res://images/item_tracker/panels/dungeons.png" id="8_dungeons"]
+[ext_resource type="Texture2D" uid="uid://bjyojnhkl40rc" path="res://images/item_tracker/panels/souls.png" id="9_souls"]
+[ext_resource type="Texture2D" uid="uid://bauyssr8stjx8" path="res://images/item_tracker/panels/song_events.png" id="10_song_events"]
+
+[node name="Items" type="Control" unique_id=800000101]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_items")
+
+[node name="Background" type="ColorRect" parent="." unique_id=800000102]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.3137255, 0.3137255, 0.3137255, 1)
+
+[node name="MainContainer" type="VBoxContainer" parent="." unique_id=800000103]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 8
+
+[node name="MarginContainerTop" type="MarginContainer" parent="MainContainer" unique_id=291923258]
+layout_mode = 2
+
+[node name="TopPanel" type="HBoxContainer" parent="MainContainer" unique_id=800000104]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 6
+
+[node name="LoadButton" type="Button" parent="MainContainer/TopPanel" unique_id=800000105]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Load"
+
+[node name="SaveButton" type="Button" parent="MainContainer/TopPanel" unique_id=800000106]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Save"
+
+[node name="ClearButton" type="Button" parent="MainContainer/TopPanel" unique_id=800000107]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Clear"
+
+[node name="WorldFilter" type="OptionButton" parent="MainContainer/TopPanel" unique_id=800000109]
+unique_name_in_owner = true
+layout_mode = 2
+selected = 0
+item_count = 5
+popup/item_0/text = "World 1"
+popup/item_0/id = 0
+popup/item_1/text = "World 2"
+popup/item_1/id = 1
+popup/item_2/text = "World 3"
+popup/item_2/id = 2
+popup/item_3/text = "World 4"
+popup/item_3/id = 3
+popup/item_4/text = "World 5"
+popup/item_4/id = 4
+
+[node name="Spacer2" type="Control" parent="MainContainer/TopPanel" unique_id=800000111]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HSeparator" type="HSeparator" parent="MainContainer" unique_id=800000112]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MainContainer" unique_id=800000113]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tile_scroll_hint = true
+
+[node name="ItemsPanel" type="Control" parent="MainContainer/ScrollContainer" unique_id=800000114]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 1360)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="CollectiblesPanel" type="TextureRect" parent="MainContainer/ScrollContainer/ItemsPanel" unique_id=800000116]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(288, 336)
+layout_mode = 0
+offset_left = 464.0
+offset_right = 752.0
+offset_bottom = 336.0
+mouse_filter = 0
+texture = ExtResource("2_collectibles")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="EquipmentPanel" type="TextureRect" parent="MainContainer/ScrollContainer/ItemsPanel" unique_id=800000117]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(464, 432)
+layout_mode = 0
+offset_right = 464.0
+offset_bottom = 432.0
+mouse_filter = 0
+texture = ExtResource("3_equipment")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="ItemsPanelImage" type="TextureRect" parent="MainContainer/ScrollContainer/ItemsPanel" unique_id=800000118]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(608, 336)
+layout_mode = 0
+offset_left = 512.0
+offset_top = 336.0
+offset_right = 1120.0
+offset_bottom = 672.0
+mouse_filter = 0
+texture = ExtResource("4_items")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="MasksPanel" type="TextureRect" parent="MainContainer/ScrollContainer/ItemsPanel" unique_id=800000119]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(352, 288)
+layout_mode = 0
+offset_left = 752.0
+offset_right = 1104.0
+offset_bottom = 288.0
+mouse_filter = 0
+texture = ExtResource("5_masks")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="SongsPanel" type="TextureRect" parent="MainContainer/ScrollContainer/ItemsPanel" unique_id=800000120]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(512, 320)
+layout_mode = 0
+offset_top = 432.0
+offset_right = 512.0
+offset_bottom = 752.0
+mouse_filter = 0
+texture = ExtResource("6_songs")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="RustyKeysPanel" type="TextureRect" parent="MainContainer/ScrollContainer/ItemsPanel" unique_id=800000121]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(352, 496)
+layout_mode = 0
+offset_left = 1120.0
+offset_right = 1472.0
+offset_bottom = 496.0
+mouse_filter = 0
+texture = ExtResource("7_rusty_keys")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="DungeonsPanel" type="TextureRect" parent="MainContainer/ScrollContainer/ItemsPanel" unique_id=800000122]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(464, 496)
+layout_mode = 0
+offset_left = 144.0
+offset_top = 752.0
+offset_right = 608.0
+offset_bottom = 1248.0
+mouse_filter = 0
+texture = ExtResource("8_dungeons")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="SoulsPanel" type="TextureRect" parent="MainContainer/ScrollContainer/ItemsPanel" unique_id=800000123]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(656, 688)
+layout_mode = 0
+offset_left = 608.0
+offset_top = 672.0
+offset_right = 1264.0
+offset_bottom = 1360.0
+mouse_filter = 0
+texture = ExtResource("9_souls")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="SongEventsPanel" type="TextureRect" parent="MainContainer/ScrollContainer/ItemsPanel" unique_id=800000124]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(176, 736)
+layout_mode = 0
+offset_left = 1264.0
+offset_top = 496.0
+offset_right = 1440.0
+offset_bottom = 1232.0
+mouse_filter = 0
+texture = ExtResource("10_song_events")
+expand_mode = 1
+stretch_mode = 3

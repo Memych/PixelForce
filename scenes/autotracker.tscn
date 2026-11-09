@@ -1,0 +1,129 @@
+[gd_scene format=3 uid="uid://binhsyqbkrm77"]
+
+[ext_resource type="Script" uid="uid://8k7nbf1vsqhj" path="res://scripts/autotracker.gd" id="1_autotracker"]
+[ext_resource type="Texture2D" uid="uid://d32160upjmx8w" path="res://images/indicator_red.png" id="2_kupw7"]
+
+[node name="AutoTracker" type="Control" unique_id=800000001]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_autotracker")
+
+[node name="Background" type="ColorRect" parent="." unique_id=800000002]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.3137255, 0.3137255, 0.3137255, 1)
+
+[node name="MainContainer" type="VBoxContainer" parent="." unique_id=800000003]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 8
+
+[node name="MarginContainer" type="MarginContainer" parent="MainContainer" unique_id=222522620]
+layout_mode = 2
+
+[node name="TopPanel" type="HBoxContainer" parent="MainContainer" unique_id=800000004]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="LoadButton" type="Button" parent="MainContainer/TopPanel" unique_id=1946382484]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+text = "Load"
+
+[node name="SaveButton" type="Button" parent="MainContainer/TopPanel" unique_id=876280332]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+text = "Save"
+
+[node name="ClearButton" type="Button" parent="MainContainer/TopPanel" unique_id=1528695228]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+text = "Clear"
+
+[node name="StatusIndicator" type="TextureRect" parent="MainContainer/TopPanel" unique_id=1527244424]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+texture = ExtResource("2_kupw7")
+
+[node name="StatusLabel" type="Label" parent="MainContainer/TopPanel" unique_id=800000006]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Disconnected"
+vertical_alignment = 1
+
+[node name="Spacer1" type="Control" parent="MainContainer/TopPanel" unique_id=800000007]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+
+[node name="HostLabel" type="Label" parent="MainContainer/TopPanel" unique_id=95217785]
+layout_mode = 2
+text = "Host:"
+vertical_alignment = 1
+
+[node name="HostInput" type="LineEdit" parent="MainContainer/TopPanel" unique_id=143249494]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="PortLabel" type="Label" parent="MainContainer/TopPanel" unique_id=800000008]
+layout_mode = 2
+text = "Port:"
+vertical_alignment = 1
+
+[node name="PortInput" type="SpinBox" parent="MainContainer/TopPanel" unique_id=800000009]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_vertical = 4
+max_value = 65535.0
+value = 100.0
+
+[node name="Spacer2" type="Control" parent="MainContainer/TopPanel" unique_id=800000010]
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+
+[node name="ConnectButton" type="Button" parent="MainContainer/TopPanel" unique_id=800000011]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+text = "Connect"
+
+[node name="ClearLogButton" type="Button" parent="MainContainer/TopPanel" unique_id=800000012]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+text = "Clear Log"
+
+[node name="Spacer3" type="Control" parent="MainContainer/TopPanel" unique_id=800000013]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="LogOutput" type="TextEdit" parent="MainContainer" unique_id=800000014]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/caret_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0.8, 0.8, 0.8, 1)
+theme_override_colors/font_readonly_color = Color(0.8, 0.8, 0.8, 1)
+editable = false
+context_menu_enabled = false
+drag_and_drop_selection_enabled = false
+wrap_mode = 2
+tab_input_mode = false
