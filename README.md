@@ -1,6 +1,6 @@
 # PixelForce - OoTMM Tracker
 
-A comprehensive tracker for the **Ocarina of Time / Majora's Mask (OoTMM)** randomizer. Built with [Godot Engine](https://godotengine.org/), this tool helps players track locations, items, and progression during their randomizer playthroughs.
+A comprehensive tracker for the **Ocarina of Time / Majora's Mask** ([OoTMM](https://github.com/OoTMM/OoTMM)) randomizer. Built with [Godot Engine](https://godotengine.org/), this tool helps players track locations, items, and progression during their randomizer playthroughs.
 
 <img width="1538" height="928" alt="image" src="https://github.com/user-attachments/assets/e0c5a1f7-2e32-45a9-91b5-b052cdf0c551" />
 
@@ -71,7 +71,7 @@ Configure randomizer settings to match your seed. Settings affect logic evaluati
 
 ### 🤖 AutoTracker
 
-Automatically track game state by connecting to an emulator or randomizer daemon.
+Automatically track game state by connecting to an emulator or randomizer daemon. The WebSocket daemon and multiplayer client are provided by the [OoTMM multiplayer](https://github.com/OoTMM/multiplayer) project.
 
 - **WebSocket** — connect to OoTMM daemon (default: `127.0.0.1:39278`)
 - **TCP Memory Reader** — read game memory directly from emulator (port `13249`)
@@ -114,3 +114,10 @@ Automatically track game state by connecting to an emulator or randomizer daemon
    ```bash
    git clone https://github.com/Memych/pixel-force-ootmm-tracker.git
    cd pixel-force-ootmm-tracker
+
+## Credits
+
+- **OoTMM Randomizer** — [OoTMM/OoTMM](https://github.com/OoTMM/OoTMM)
+- **OoTMM Multiplayer Client** (AutoTracker daemon) — [OoTMM/multiplayer](https://github.com/OoTMM/multiplayer)
+- **Godot Engine** — [godotengine.org](https://godotengine.org/)
+- **Fonts** — MegaMan10Regular, FOT-ChiaroStd-B
